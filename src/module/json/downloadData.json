@@ -1,0 +1,42 @@
+{
+  "basicDatasets": [
+    {
+      "name": "TUMA_1",
+      "description": "111111111"
+    },
+    {
+      "name": "TUMA_2",
+      "description": "22222222"
+    },
+    {
+      "name": "TUMA_3",
+      "description": "33333333"
+    },
+    {
+      "name": "TUMA_4",
+      "description": "4444444444"
+    },
+    {
+      "name": "TUMA_5",
+      "description": "555555555555"
+    }
+  ],
+  "advancedDatasets": [
+    {
+      "name": "TUMA_2_1",
+      "description": "2_1"
+    },
+    {
+      "name": "TUMA_2_2",
+      "description": "2_2"
+    },
+    {
+      "name": "TUMA_2_3",
+      "description": "2_3"
+    },
+    {
+      "name": "TUMA_2_4",
+      "description": "2_4"
+    }
+  ]
+}

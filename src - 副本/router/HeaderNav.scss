@@ -1,0 +1,78 @@
+.headernav-wrap {
+  background-color: #800000;
+  // position: fixed;
+  display: flex;
+  // align-items: center;
+  // justify-content: flex-end;
+  // top: 0;
+  // z-index: 999;
+  width: 95%;
+  // top: 100px;
+  // padding-left: 50px;
+  // padding-right: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  // transition: background-color 0.5s;
+  .headernav-title {
+    font-size: 40px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 0px;
+    // font-style: italic;
+    font-weight: bold;
+  }
+  .headernav-logo {
+    max-height: 100%;
+    // display: inline-block;
+    // vertical-align: middle;
+    // color: #fff;
+    // margin-right: auto;
+    // font-size: 50px;
+    // line-height: 1;
+    // font-family: Book Antiqua;
+    // font-style: italic;
+    // font-weight: bold;
+  }
+  .headernav-item1111 {
+    display: flex;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 0px;
+    // position: relative;
+    padding-left: 500px;
+  }
+  .headernav-item-wrap {
+    // display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  // .headernav-item-wrap {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   cursor: pointer;
+  //   height: 64px;
+  //   width: 10%;
+  //   max-width: 130px;
+  //   min-width: 100px;
+  //   text-align: center;
+  //   vertical-align: middle;
+  //   padding-right: 10px;
+  //   padding-left: 10px;
+  //   color: #fff;
+  //   font-size: 20px;
+  //   font-weight: bold;
+  //   transition: filter 0.5s;
+  //   overflow: hidden;
+  //   transition: background-color 0.5s;
+  // }
+  .headernav-item-wrap.activated {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+  }
+  .headernav-item-wrap:hover {
+    filter: brightness(0.8);
+  }
+}
