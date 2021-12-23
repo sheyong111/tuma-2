@@ -11,15 +11,7 @@ const { Text, Link, Title, Paragraph } = Typography;
 const { Option } = Select;
 
 function home() {
-  const selectList = [
-    { label: "Gene symbol", value: "geneName" },
-    { label: "Gene ID", value: "geneId" },
-    { label: "Transcript ID", value: "transcriptId" },
-    { label: "Condensate", value: "condensate" },
-    { label: "Organism", value: "organism" },
-    { label: "LLPS ID", value: "llpsId" },
-    { label: "RPS ID", value: "rpsId" },
-  ];
+  const selectList = [{ label: "11", value: "geneName" }];
 
   return (
     <div className="home-content">
