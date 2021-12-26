@@ -21,7 +21,6 @@ function Help() {
   function Navigation() {
     return (
       <div>
-        11111111111111
         <Menu mode="inline">
           <Menu.Item
             key={"tuma-help-introduction"}
