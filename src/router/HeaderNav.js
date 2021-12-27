@@ -1,4 +1,5 @@
-import React from "react";
+// import { withRouter } from "react-router";
+import React, { useState } from "react";
 import { Menu } from "antd";
 import { Link } from "react-router-dom";
 import utils from "../module/utils";
@@ -45,7 +46,12 @@ export const menuItemList = [
   },
 ];
 
-function HeaderNav() {
+function HeaderNav(props) {
+  const hashPath = window.location.pathname;
+
+  const [currentPath] = useState(hashPath);
+  console.log(window.location.pathname);
+
   //点击菜单的回调
   function onClickMenuNew(path) {
     utils.routeToPage(path);
@@ -59,7 +65,13 @@ function HeaderNav() {
         {menuItemList.map((item, index) => {
           return (
             <div
-              className={"headernav-item-wrap" + " tuma-theme-bgcolor"}
+              className={
+                "headernav-item-wrap" +
+                " tuma-theme-bgcolor" +
+                (currentPath.indexOf(item.path.split("/")[1]) > -1
+                  ? "activated tuma-theme-bdcolor-sc tuma-theme-color-sc"
+                  : "")
+              }
               onClick={() => onClickMenuNew(item.path)}
               key={index}
             >
@@ -73,7 +85,6 @@ function HeaderNav() {
           onClick={() => window.open("https://renlab.org/")}
           key={999}
         >
-          {/* item.icon */}
           <span>{"Renlab"}</span>
         </div>
       </div>
@@ -82,3 +93,8 @@ function HeaderNav() {
 }
 
 export default HeaderNav;
+
+// +
+// (currentPath.indexOf(item.path.split("/")[1]) > -1
+//   ? "activated tuma-theme-bdcolor-sc tuma-theme-color-sc"
+//   : "")

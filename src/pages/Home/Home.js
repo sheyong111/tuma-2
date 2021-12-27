@@ -51,7 +51,7 @@ function home() {
             <Paragraph>
               <Text strong>The Tumor Microbiome Analysor </Text>
               <Text type="danger">
-                This 1s an example of the introduction of this database
+                This is an example of the introduction of this database
               </Text>{" "}
               TUMA advances science and health by providing access to tumor
               related <Text underline>microoganism</Text> (virus and bacteria)

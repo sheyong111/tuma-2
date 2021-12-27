@@ -41,12 +41,13 @@
     transition: filter 0.5s;
     overflow: hidden;
     transition: background-color 0.5s;
-  }
-  .headernav-item-wrap.activated {
-    border-bottom-width: 4px;
-    border-bottom-style: solid;
-  }
-  .headernav-item-wrap:hover {
-    filter: brightness(0.8);
+    .headernav-item-wrap.activated {
+      // border-bottom-width: 4px;
+      border-bottom-width: 8px;
+      border-bottom-style: solid;
+    }
+    .headernav-item-wrap:hover {
+      filter: brightness(0.8);
+    }
   }
 }
