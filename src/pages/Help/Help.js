@@ -17,11 +17,18 @@ const titleStyle = {
   color: "#08979c",
 };
 
-function Help() {
-  function Navigation() {
+function Help(props) {
+  function Navigation(props) {
+    function onSelect(props) {
+      // console.log(props);
+      const { key } = props;
+      let targetDom = document.getElementById(key);
+      // console.log(targetDom);
+      targetDom.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
     return (
       <div>
-        <Menu mode="inline">
+        <Menu mode="inline" onSelect={onSelect}>
           <Menu.Item
             key={"tuma-help-introduction"}
             icon={<UnorderedListOutlined />}

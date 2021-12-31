@@ -21,9 +21,10 @@ function Index() {
       {" "}
       <Layout>
         <Router>
-          <Header>
-            <HeaderNav />
-          </Header>
+          {/* <Header>
+            
+          </Header> */}
+          <HeaderNav />
           <Content
             style={{
               minHeight: "100%",
