@@ -66,7 +66,7 @@ export default function Contact(props) {
     <div className="contact-wrap">
       <Card /* title="Contact" icon={<LinkOutlined />} */>
         <span className="contact-tip">
-          If you have any questions or comments, please contact us.
+          If you have any questions, please contact us.
         </span>
         <div className="contact-content tuma-theme-bdcolor-sc">
           {contactList.map((item, index) => {

@@ -1,6 +1,11 @@
 import React, { lazy } from "react";
 import { Layout, BackTop } from "antd";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 
 import HeaderNav from "./HeaderNav";
 import "./footer.scss";
@@ -22,7 +27,6 @@ function Index() {
       <Layout>
         <Router>
           {/* <Header>
-            
           </Header> */}
           <HeaderNav />
           <Content
@@ -38,6 +42,8 @@ function Index() {
               <Route path="/search" element={<Search />} />
               <Route path="/download" element={<Download />} />
               <Route path="/contact" element={<Contact />} />
+              {/* <Route path="*" element={<Home />} /> */}
+              <Route path="*" element={<Navigate to="/home" />} />
               <Route />
             </Routes>
           </Content>
