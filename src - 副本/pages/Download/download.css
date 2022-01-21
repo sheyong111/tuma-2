@@ -1,0 +1,15 @@
+.download-wrap {
+  position: relative;
+  /* padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%; */
+  padding: 50px;
+  width: 100vw;
+  max-width: 1400px;
+}
+
+.download-wrap th,
+.download-wrap td {
+  text-align: center !important;
+}
+/*# sourceMappingURL=download.css.map */

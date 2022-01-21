@@ -1,11 +1,7 @@
 import React, { lazy } from "react";
 import { Layout, BackTop } from "antd";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate,
-} from "react-router-dom";
+import { HashRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+// import { createHashHistory } from "history";
 
 import HeaderNav from "./HeaderNav";
 import "./footer.scss";
@@ -21,6 +17,8 @@ import Contact from "../pages/Contact/Contact";
 const { Header, Footer, Content } = Layout;
 
 function Index() {
+  // const history = createHashHistory();
+
   return (
     <React.Fragment>
       {" "}
@@ -32,24 +30,20 @@ function Index() {
           <Content
             style={{
               minHeight: "100%",
-            }}
-          >
+            }}>
             <BackTop />
-            <Routes>
-              <Route path="/home" element={<Home />} />
-              <Route path="/help" element={<Help />} />
-              <Route path="/browser" element={<Browser />} />
-              <Route path="/search" element={<Search />} />
-              <Route path="/download" element={<Download />} />
-              <Route path="/contact" element={<Contact />} />
-              {/* <Route path="*" element={<Home />} /> */}
-              <Route path="*" element={<Navigate to="/home" />} />
+            <Switch>
+              <Route path="/Home" component={Home} />
+              <Route path="/Help" component={Help} />
+              <Route path="/Browser" component={Browser} />
+              <Route path="/Search" component={Search} />
+              <Route path="/Download" component={Download} />
+              <Route path="/Contact" component={Contact} />
+              <Redirect to="/Home" />
               <Route />
-            </Routes>
+            </Switch>
           </Content>
-          <Footer className="tuma-footer">
-            TUMA © 2021 The Ren Lab. All Rights Reserved
-          </Footer>
+          <Footer className="tuma-footer">TUMA © 2021 The Ren Lab. All Rights Reserved</Footer>
         </Router>
       </Layout>
     </React.Fragment>

@@ -1,0 +1,40 @@
+.tuma-help-wrap {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 1400px;
+  margin: auto;
+  position: relative;
+}
+
+.tuma-help-wrap .tuma-help-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  -webkit-animation: 0.8s wrap-show;
+          animation: 0.8s wrap-show;
+}
+
+.tuma-help-wrap .tuma-help-content .tuma-help-content-left {
+  overflow-x: hidden;
+}
+
+.tuma-help-wrap .tuma-help-content .tuma-help-content-right {
+  min-width: 310px;
+}
+
+.tuma-help-wrap .tuma-help-content .tuma-help-content-right .tuma-help-nav {
+  margin-left: 10px;
+}
+
+.tuma-help-wrap .tuma-help-content .tuma-help-content-right .tuma-help-nav-fixed {
+  position: fixed;
+  top: 80px;
+  right: auto;
+}
+/*# sourceMappingURL=help.css.map */

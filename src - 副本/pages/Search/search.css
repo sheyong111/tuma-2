@@ -1,0 +1,27 @@
+.search-wrap {
+  position: relative;
+  padding: 50px;
+  width: 95vw;
+  max-width: 1700px;
+  /* margin-top: 64px; */
+}
+
+.search-wrap .llps-search-btn-wrap {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-wrap .llps-result-table-wrap {
+  /* overflow-x: scroll; */
+}
+
+.search-wrap .llps-result-table-wrap td,
+.search-wrap .llps-result-table-wrap th {
+  text-align: center;
+  /* white-space: nowrap; */
+}
+
+.search-wrap .llps-result-table-wrap .rps-table-row .ant-table-cell {
+  padding: 10px;
+}
+/*# sourceMappingURL=search.css.map */

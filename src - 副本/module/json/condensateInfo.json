@@ -1,0 +1,955 @@
+{
+    "Stress granule": {
+        "description": "Stress granules are dense aggregations in the cytosol composed of proteins and RNAs that appear when the cell is under stress [1]. The RNA molecules stored are stalled translation pre-initiation complexes: failed attempts to make protein from mRNA. Stress granules are 100–200 nm in size (when biochemically purified), not surrounded by membrane, and associated with the endoplasmatic reticulum [2]. Note that there are also nuclear stress granules. The function of stress granules remains largely unknown. Stress granules have long been proposed to have a function to protect RNAs from harmful conditions, thus their appearance under stress [3]. The accumulation of RNAs into dense globules could keep them from reacting with harmful chemicals and safeguard the information coded in their RNA sequence.",
+        "references": [
+            {
+                "quote": " Gutierrez-Beltran E, Moschou PN, Smertenko AP, Bozhkov PV (March 2015). Tudor staphylococcal nuclease links formation of stress granules and processing bodies with mRNA catabolism in Arabidopsis. The Plant Cell. 27 (3): 926–43. doi:10.1105/tpc.114.134494.",
+                "pmid": "25736060"
+            },
+            {
+                "quote": "Kayali F, Montie HL, Rafols JA, DeGracia DJ (2005). Prolonged translation arrest in reperfused hippocampal cornu Ammonis 1 is mediated by stress granules. Neuroscience. 134 (4): 1223–45. doi:10.1016/j.neuroscience.2005.05.047.",
+                "pmid": "16055272"
+            },
+            {
+                "quote": "Nover L, Scharf KD, Neumann D (March 1989). Cytoplasmic heat shock granules are formed from precursor particles and are associated with a specific set of mRNAs. Molecular and Cellular Biology. 9 (3): 1298–308. doi:10.1128/mcb.9.3.1298.",
+                "pmid": "2725500"
+            }
+        ],
+        "goId": "GO:0010494"
+    },
+    "Nucleolus": {
+        "description": "The nucleolus is the largest structure in the nucleus of eukaryotic cells [1]. It is best known as the site of ribosome biogenesis. Nucleoli also participate in the formation of signal recognition particles and play a role in the cell's response to stress [2]. Nucleoli are made of proteins, DNA and RNA and form around specific chromosomal regions called nucleolar organizing regions. Malfunction of nucleoli can be the cause of several human conditions called \"nucleolopathies\" [3] and the nucleolus is being investigated as a target for cancer chemotherapy [4][5].",
+        "references": [
+            {
+                "quote": "O'Sullivan JM, Pai DA, Cridge AG, Engelke DR, Ganley AR (June 2013). The nucleolus: a raft adrift in the nuclear sea or the keystone in nuclear structure?. Biomolecular Concepts. 4 (3): 277–86. doi:10.1515/bmc-2012-0043. ",
+                "pmid": "25436580"
+            },
+            {
+                "quote": "Boulon S, Westman BJ, Hutten S, Boisvert FM, Lamond AI (October 2010). The nucleolus under stress. Molecular Cell. 40(2):216-27. doi: 10.1016/j.molcel.2010.09.024.",
+                "pmid": " 20965417"
+            },
+            {
+                "quote": "Hetman M (June 2014). Role of the nucleolus in human diseases. Preface. Biochimica et Biophysica Acta. 1842 (6): 757. doi:10.1016/j.bbadis.2014.03.004.",
+                "pmid": "24631655"
+            },
+            {
+                "quote": "Quin JE, Devlin JR, Cameron D, Hannan KM, Pearson RB, Hannan RD (June 2014). Targeting the nucleolus for cancer intervention. Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease. 1842 (6): 802–16. doi:10.1016/j.bbadis.2013.12.009.",
+                "pmid": "25436580"
+            },
+            {
+                "quote": "O'Sullivan JM, Pai DA, Cridge AG, Engelke DR, Ganley AR (June 2013). The nucleolus: a raft adrift in the nuclear sea or the keystone in nuclear structure?. Biomolecular Concepts. 4 (3): 277–86. doi:10.1515/bmc-2012-0043. ",
+                "pmid": "25436580"
+            }
+        ],
+        "goId": "GO:0005730"
+    },
+    "Nuclear pore complex": {
+        "description": "A nuclear pore is a part of a large complex of proteins, known as a nuclear pore complex that spans the nuclear envelope, which is the double membrane surrounding the eukaryotic cell nucleus. There are approximately 1,000 nuclear pore complexes (NPCs) in the nuclear envelope of a vertebrate cell, but it varies depending on cell type and the stage in the life cycle.[1] The human nuclear pore complex (hNPC) is a 110 megadalton (MDa) structure. The proteins that make up the nuclear pore complex are known as nucleoporins; each NPC contains at least 456 individual protein molecules and is composed of 34 distinct nucleoporin proteins.[2] About half of the nucleoporins typically contain solenoid protein domains—either an alpha solenoid or a beta-propeller fold, or in some cases both as separate structural domains. The other half show structural characteristics typical of \"natively unfolded\" or intrinsically disordered proteins, i.e. they are highly flexible proteins that lack ordered tertiary structure.[3] These disordered proteins are the FG nucleoporins, so called because their amino-acid sequence contains many phenylalanine—glycine repeats.[4] \n Nuclear pore complexes allow the transport of molecules across the nuclear envelope. This transport includes RNA and ribosomal proteins moving from nucleus to the cytoplasm and proteins (such as DNA polymerase and lamins), carbohydrates, signaling molecules and lipids moving into the nucleus. It is notable that the nuclear pore complex (NPC) can actively conduct 1000 translocations per complex per second. Although smaller molecules simply diffuse through the pores, larger molecules may be recognized by specific signal sequences and then be diffused with the help of nucleoporins into or out of the nucleus. It has been recently shown that these nucleoporins have specific evolutionary conserved features encoded in their sequences that provide insight into how they regulate the transport of molecules through the nuclear pore.[5][6] Nucleoporin-mediated transport is not directly energy requiring, but depends on concentration gradients associated with the RAN cycle. Each of the eight protein subunits surrounding the actual pore (the outer ring) projects a spoke-shaped protein over the pore channel. The center of the pore often appears to contain a plug-like structure. It is yet unknown whether this corresponds to an actual plug or is merely cargo caught in transit.",
+        "references": [
+            {
+                "quote": "Maul, Gerd G; Deaven, Larry (1977). Quantitative Determination of Nuclear Pore Complexes in Cycling Cells with Differing DNA Content. Journal of Cell Biology. 73 (3): 748–760. doi:10.1083/jcb.73.3.748.",
+                "pmid": "406262"
+            },
+            {
+                "quote": "Lin, D. H., Stuwe, T., Schilbach, S., Rundlet, E. J., Perriches, T., Mobbs, G., … Hoelz, A. (2016). Architecture of the nuclear pore complex symmetric core. Science, 352(6283), aaf1015. http://doi.org/10.1126/science.aaf1015.",
+                "pmid": "27081075"
+            },
+            {
+                "quote": "Denning D, Patel S, Uversky V, Fink A, Rexach M (2003). Disorder in the nuclear pore complex: The FG repeat regions of nucleoporins are natively unfolded. Proc Natl Acad Sci USA. 100 (5): 2450–5. doi:10.1073/pnas.0437902100.",
+                "pmid": "12604785"
+            },
+            {
+                "quote": "Peters R (2006). Introduction to nucleocytoplasmic transport: molecules and mechanisms. Methods Mol Biol. 322. pp. 235–58. doi:10.1007/978-1-59745-000-3_17.",
+                "pmid": "16739728"
+            },
+            {
+                "quote": "Peyro, M.; Soheilypour, M.; Lee, B.L.; Mofrad, M.R.K. (2015-11-06). Evolutionarily Conserved Sequence Features Regulate the Formation of the FG Network at the Center of the Nuclear Pore Complex. Scientific Reports. 5: 15795.  doi:10.1038/srep15795.",
+                "pmid": "26541386"
+            },
+            {
+                "quote": "Ando, David; Colvin, Michael; Rexach, Michael; Gopinathan, Ajay (2013-09-16). Physical Motif Clustering within Intrinsically Disordered Nucleoporin Sequences Reveals Universal Functional Features. PLOS ONE. 8 (9): e73831. doi:10.1371/journal.pone.0073831.",
+                "pmid": "24066078"
+            }
+        ]
+    },
+    "DNA damage foci": {
+        "description": "In response to DNA damage, DNA repair foci, which are the subnuclear foci formed by DNA repair factors that accumulate specifically at damaged sites, are detected as distinct spots in nuclei [1]. There are a number of different names in use for DNA damage foci, such as (ionizing) radiation-induced foci (IRIF or RIF) or DNA repair foci. In general they all refer to local accumulations or modifications of DNA damage response proteins that form at the sites of DNA double-strand breaks and can be visualized through microscopic imaging following immunocyto- or -histochemical detection or fluorescent protein tagging [2]. A phosphorylated histone variant H2AX, termed γH2AX, which is detected around damaged sites and functions as a marker recruiting other DNA repair factors, forms several subnuclear foci upon DNA damage [3].",
+        "references": [
+            {
+                "quote": "Hirakawa T, Matsunaga S. Characterization of DNA Repair Foci in Root Cells of Arabidopsis in Response to DNA Damage. Front Plant Sci. 2019 Jul 30;10:990. doi: 10.3389/fpls.2019.00990.",
+                "pmid": "31417598"
+            },
+            {
+                "quote": "Rothkamm, K., Barnard, S., Moquet, J., Ellender, M., Rana, Z., and Burdak-Rothkamm, S. (2015). DNA damage foci: meaning and significance. Environ. Mol. Mutagen. 56, 491–504. doi: 10.1002/em.21944.",
+                "pmid": "25773265"
+            },
+            {
+                "quote": "Rogakou, E. P., Boon, C., Redon, C., and Bonner, W. M. (1999). Megabase chromatin domains involved in DNA double-strand breaks in vivo. J. Cell Biol. 146, 905–916. doi: 10.1083/jcb.146.5.905.",
+                "pmid": "10477747"
+            }
+        ],
+        "goId": "GO:0035861"
+    },
+    "PML nuclear body": {
+        "description": "Promyelocytic leukemia (PML) nuclear bodies (NBs) are highly dynamic subnuclear structures. PML NBs, also known as nuclear domain 10 or promyelocytic oncogenic domains, are punctate ring-shaped dynamic structures present in the nucleus of most cell types [1]. PML-NBs are discrete nuclear foci of 0.2-1.0 μm in diameter that are present in most mammalian cell nuclei. They typically number 1-30 bodies per nucleus, depending on the cell type, cell-cycle phase and differentiation stage. Recent data suggest that PML-NBs are heterogeneous structures and that different PML-NBs may regulate specific cellular functions according to their protein composition, their position in the nucleus and their mobility [2]. They have been associated with numerous cellular processes, such as cell cycle, apoptosis, stress, transcriptional regulation, genome stability, tumor suppression, and innate and intrinsic immune responses [2]. ",
+        "references": [
+            {
+                "quote": "Guion LG, Sapp M (February 2020). The Role of Promyelocytic Leukemia Nuclear Bodies During HPV Infection. Front Cell Infect Microbiol. 10:35. doi: 10.3389/fcimb.2020.00035.",
+                "pmid": "32154186"
+            },
+            {
+                "quote": "Bernardi R, Pandolfi PP (December 2007). Structure, dynamics and functions of promyelocytic leukaemia nuclear bodies. Nat Rev Mol Cell Biol. 8(12):1006-16. doi: 10.1038/nrm2277.",
+                "pmid": "17928811"
+            }
+        ],
+        "goId": "GO:0016605"
+    },
+    "Postsynaptic density": {
+        "description": "The postsynaptic density (PSD) is a protein dense specialization attached to the postsynaptic membrane. PSDs were originally identified by electron microscopy as an electron-dense region at the membrane of a postsynaptic neuron. The PSD is in close apposition to the presynaptic active zone and ensures that receptors are in close proximity to presynaptic neurotransmitter release sites.[1] PSDs vary in size and composition among brain regions, and have been studied in great detail at glutamatergic synapses. Hundreds of proteins have been identified in the postsynaptic density, including glutamate receptors, scaffold proteins, and many signaling molecules. The structure and composition of the PSD have been the focus of numerous molecular studies of synaptic plasticity, a cellular model of learning and memory. PSDs are sized on the order of 250 to 500 nanometres in diameter and 25 to 50 nanometres in thickness, depending on the activity state of the synapse. During synaptic plasticity, the total size of the PSD is increasing along with an increase in synaptic size and strength after inducing long-term potentiation at single synapses.[2]",
+        "references": [
+            {
+                "quote": "Chen X, Wu X, Wu H, Zhang M (March 2020). Phase separation at the synapse. Nat Neurosci. 23(3):301-310. doi: 10.1038/s41593-019-0579-9.",
+                "pmid": "32015539"
+            },
+            {
+                "quote": "Meyer, D.; Bonhoeffer T.; Scheuss V. (2014). Balance and Stability of Synaptic Structures during Synaptic Plasticity. Neuron. 82 (2): 430–443. doi:10.1016/j.neuron.2014.02.031.",
+                "pmid": "24742464"
+            }
+        ]
+    },
+    "Cajal body": {
+        "description": "Cajal bodies (CBs) also coiled bodies, are spherical nuclear bodies of 0.3–1.0 μm in diameter found in the nucleus of proliferative cells like embryonic cells and tumor cells, or metabolically active cells like neurons. CBs are membrane-less organelles and largely consist of proteins and RNA. They were first reported by Santiago Ramón y Cajal in 1903, who called them nucleolar accessory bodies due to their association with the nucleoli in neuronal cells [1]. They were rediscovered with the use of the electron microscope (EM) and named coiled bodies, according to their appearance as coiled threads on EM images, and later renamed after their discoverer [2]. Research on CBs was accelerated after discovery and cloning of the marker protein p80/Coilin [3]. CBs have been implicated in RNA-related metabolic processes such as the biogenesis, maturation and recycling of snRNPs, histone mRNA processing and telomere maintenance. CBs assemble RNA which is used by telomerase to add nucleotides to the ends of telomeres [4]. Cajal bodies are only found in nuclei of plant, yeast, and animal cells [5]. The cells in which Cajal bodies are most apparent usually demonstrate high levels of transcriptional activity, and are often dividing rapidly [6].",
+        "references": [
+            {
+                "quote": "Cajal SR (1903). Un sencillo metodo de coloracion selectiva del reticulo protoplasmico y sus efectos en los diversos organos nerviosos de vertebrados e invertebrados. Trab Lab Investig Biol Univ Madr. 2: 129–221.",
+                "pmid": ""
+            },
+            {
+                "quote": "Gall, JG; Bellini, M; Wu, Z; Murphy, C (December 1999). Assembly of the nuclear transcription and processing machinery: Cajal bodies (coiled bodies) and transcriptosomes. Molecular Biology of the Cell. 10 (12): 4385–402. doi:10.1091/mbc.10.12.4385. ",
+                "pmid": "10588665"
+            },
+            {
+                "quote": "Andrade LE, Chan EK, Raska I, Peebles CL, Roos G, Tan EM (June 1991). Human autoantibody to a novel protein of the nuclear coiled body: immunological characterization and cDNA cloning of p80-coilin. J. Exp. Med. 173 (6): 1407–19. doi:10.1084/jem.173.6.1407.",
+                "pmid": "2033369"
+            },
+            {
+                "quote": "Wright, W.E., Zhao, Y.; Abreu, E.; Kim, J.; Stadler, G.; Eskiocak, U.; Terns, M.P.; Terns, R.M.; Shay, J.W. (6 May 2011). Processive and Distributive Extension of Human Telomeres by Telomerase Under Homeostatic and Non-equilibrium Conditions. Molecular Cell. 42 (3): 297–307. doi:10.1016/j.molcel.2011.03.020.",
+                "pmid": "21549308"
+            },
+            {
+                "quote": "Cioce, Mario; Lamond, Angus I. (2005). CAJAL BODIES: A Long History of Discovery. Annual Review of Cell and Developmental Biology. 21 (1): 105–131. doi:10.1146/annurev.cellbio.20.010403.103738.",
+                "pmid": "16212489"
+            },
+            {
+                "quote": "Ogg SC, Lamond A (2002). Cajal bodies and coilin—moving towards function. J Cell Biol. 159 (1): 17–21. doi:10.1083/jcb.200206111.",
+                "pmid": "12379800"
+            }
+        ],
+        "goId": "GO:0015030"
+    },
+    "Nuclear speckle": {
+        "description": "Nuclear speckles, also known as interchromatin granule clusters, are nuclear domains enriched in pre-mRNA splicing factors, located in the interchromatin regions of the nucleoplasm of mammalian cells. Nuclear speckles (NSs) or splicing speckles, also called interchromatin granule clusters, were discovered as sites for splicing factor storage and modification. When observed by immunofluorescence microscopy, they usually appear as 20–50 irregularly shaped structures that vary in size. Speckles are dynamic structures, and their constituents can exchange continuously with the nucleoplasm and other nuclear locations, including active transcription sites. Studies on the composition, structure, and dynamics of speckles have provided an important paradigm for understanding the functional organization of the nucleus and the dynamics of the gene expression machinery [1].  Further studies on transcription and mRNA maturation and export revealed a more general role for splicing speckles in RNA metabolism. NSs contribute to numerous human diseases, including cancers and viral infections. In addition, recent data have demonstrated close relationships between these structures and the development of neurological disorders [2].",
+        "references": [
+            {
+                "quote": "Spector DL, Lamond AI (February 2011). Nuclear speckles. Cold Spring Harb Perspect Biol. 3(2):a000646. doi: 10.1101/cshperspect.a000646.",
+                "pmid": "20926517"
+            },
+            {
+                "quote": "Galganski L, Urbanek MO, Krzyzosiak WJ (October 2017). Nuclear speckles: molecular organization, biological function and role in disease. Nucleic Acids Res. 45(18):10350-10368. doi: 10.1093/nar/gkx759.",
+                "pmid": "28977640"
+            }
+        ],
+        "goId": "GO:0016607"
+    },
+    "Gemini of cajal body": {
+        "description": "A nuclear body is similar to Cajal body (CB) in morphology, numbers, metabolism, and cell cycle behavior, but devoid of coilin was reported by Liu et al., in 1996 [1]. It was much similar and appeared to be twin of CB, so it was named the Gemini of Cajal body (also known as GEM). It is made up of survival motor neuron (SMN) protein complex and other proteins. Gemini of coiled bodies, or 'gems', are similar in size and shape to CBs, and often indistinguishable under the microscope. Unlike CBs, gems do not contain small nuclear ribonucleoproteins (snRNPs); they contain a protein called survivor of motor neurons (SMN) whose function relates to snRNP biogenesis. Gems are believed to assist CBs in snRNP biogenesis, and to play a role in the etiology of spinal muscular atrophy (SMA).[2] GEMs are also involved in spliceosomal snRNP biogenesis, transcription, and translation.[3][4][5]",
+        "references": [
+            {
+                "quote": "Liu Q, Dreyfuss G (July 1996). A novel nuclear structure containing the survival of motor neurons protein. EMBO J. 15(14):3555-65.",
+                "pmid": "8670859"
+            },
+            {
+                "quote": "Gall JG (2000). Cajal bodies: the first 100 years. Annu Rev Cell Dev Biol. 16:273-300. doi: 10.1146/annurev.cellbio.16.1.273.",
+                "pmid": "11031238"
+            },
+            {
+                "quote": "Staněk D, Fox AH (June 2017). Nuclear bodies: news insights into structure and function. Curr Opin Cell Biol. 46:94-101. doi: 10.1016/j.ceb.2017.05.001. Epub 2017 May 31.",
+                "pmid": "28577509"
+            },
+            {
+                "quote": "Morimoto M, Boerkoel CF (July 2013). The role of nuclear bodies in gene expression and disease. Biology (Basel). 2(3):976-1033. doi: 10.3390/biology2030976.",
+                "pmid": "24040563"
+            },
+            {
+                "quote": "Nunes VS, Moretti NS (January 2017). Nuclear subcompartments: an overview. Cell Biol Int. 41(1):2-7. doi: 10.1002/cbin.10703.",
+                "pmid": "27862595"
+            }
+        ]
+    },
+    "P-body": {
+        "description": "P-bodies, or processing bodies are distinct foci formed by phase separation within the cytoplasm of the eukaryotic cell consisting of many enzymes involved in mRNA turnover. P-bodies are highly conserved structures and have been observed in somatic cells originating from vertebrates and invertebrates, plants and yeast. To date, P-bodies have been demonstrated to play fundamental roles in general mRNA decay, nonsense-mediated mRNA decay, adenylate-uridylate-rich element mediated mRNA decay, and microRNA (miRNA) induced mRNA silencing [1]. Not all mRNAs which enter P-bodies are degraded, as it has been demonstrated that some mRNAs can exit P-bodies and re-initiate translation [2][3]. Purification and sequencing of the mRNA from purified processing bodies showed that these mRNAs are largely translationally repressed upstream of translation initiation and are protected from 5' mRNA decay [4].",
+        "references": [
+            {
+                "quote": "Kulkarni, M.; Ozgur, S.; Stoecklin, G. (2010). On track with P-bodies. Biochemical Society Transactions. 38 (Pt 1): 242–251. doi:10.1042/BST0380242.",
+                "pmid": "20074068"
+            },
+            {
+                "quote": "Brengues, M.; Teixeira, D.; Parker, R. (2005). Movement of eukaryotic mRNAs between polysomes and cytoplasmic processing bodies. Science. 310 (5747): 486–489. doi:10.1126/science.1115791.",
+                "pmid": "16141371"
+            },
+            {
+                "quote": "Bhattacharyya, S.; Habermacher, R.; Martine, U.; Closs, E.; Filipowicz, W. (2006). Relief of microRNA-mediated translational repression in human cells subjected to stress. Cell. 125 (6): 1111–1124. doi:10.1016/j.cell.2006.04.031.",
+                "pmid": "16777601"
+            },
+            {
+                "quote": "Hubstenberger, Arnaud; Courel, Maïté; Bénard, Marianne; Souquere, Sylvie; Ernoult-Lange, Michèle; Chouaib, Racha; Yi, Zhou; Morlot, Jean-Baptiste; Munier, Annie (2017-09-27). P-Body Purification Reveals the Condensation of Repressed mRNA Regulons. Molecular Cell. 68 (1): 144–157.e5. doi:10.1016/j.molcel.2017.09.003.",
+                "pmid": "28965817"
+            }
+        ],
+        "goId": "GO:0000932"
+    },
+    "Pericentriolar matrix": {
+        "description": "Pericentriolar material (PCM, sometimes also called pericentriolar matrix) is a highly structured,[1] dense mass of protein which makes up the part of the animal centrosome that surrounds the two centrioles. The PCM contains proteins responsible for microtubule nucleation and anchoring[2] including γ-tubulin, pericentrin and ninein. Although the PCM appears amorphous by electron microscopy, super-resolution microscopy finds that it is highly organized. The PCM have 9 fold symmetry that mimics the symmetry of the centriole.[citation needed] Some PCM proteins are organized such that one end of the protein is found near the centriole and the other end is farther away from the centriole. The PCM size is dynamic during the cell cycle. After the cell division the PCM size is reduced in a process named centrosome reduction.[3] During the G2 phase of the cell cycle the PCM size grow in a process named centrosome maturation.",
+        "references": [
+            {
+                "quote": "Lawo, Steffen; Hasegan, Monica; Gupta, Gagan D.; Pelletier, Laurence (November 2012). Subdiffraction imaging of centrosomes reveals higher-order organizational features of pericentriolar material. Nature Cell Biology. 14 (11): 1148–1158. doi:10.1038/ncb2591.",
+                "pmid": "23086237"
+            },
+            {
+                "quote": "Eddé, B.; Rossier; Le Caer; Desbruyères; Gros; Denoulet (1990). Posttranslational glutamylation of alpha-tubulin. Science. 247 (4938): 83–85. doi:10.1126/science.1967194.",
+                "pmid": "1967194"
+            },
+            {
+                "quote": "Avidor-Reiss T, Khire A, Fishman EL, Jo KH (April 2015). Atypical centrioles during sexual reproduction. Front Cell Dev Biol. 3:21. doi: 10.3389/fcell.2015.00021.",
+                "pmid": "25883936"
+            }
+        ]
+    },
+    "Paraspeckle": {
+        "description": "Paraspeckles are mammal-specific RNA–protein nuclear bodies that regulate gene expression [1]. In cell biology, a paraspeckle is an irregularly shaped compartment of the cell, approximately 0.2-1 μm in size, found in the nucleus' interchromatin space [2]. First documented in HeLa cells, where there are generally 10-30 per nucleus, Paraspeckles are now known to also exist in all human primary cells, transformed cell lines and tissue sections. Their name is derived from their distribution in the nucleus; the \"para\" is short for parallel and the \"speckle\" refers to the splicing speckles to which they are always in close proximity [3]. Their function is still not fully understood, but they are thought to regulate gene expression by sequestrating proteins or mRNAs with inverted repeats in their 3′ UTRs [4][5].",
+        "references": [
+            {
+                "quote": "Fox AH, Nakagawa S, Hirose T, Bond CS (February 2018). Paraspeckles: Where Long Noncoding RNA Meets Phase Separation. Trends Biochem Sci. 43(2):124-135. doi: 10.1016/j.tibs.2017.12.001.",
+                "pmid": "29289458"
+            },
+            {
+                "quote": "Fox AH, Lam YW, Leung AK, Lyon CE, Andersen J, Mann M, Lamond AI (January 2002). Paraspeckles: a novel nuclear domain. Current Biology. 12 (1): 13–25. doi:10.1016/S0960-9822(01)00632-7.",
+                "pmid": "11790299"
+            },
+            {
+                "quote": "Fox AH, Bond CS, Lamond AI (November 2005). P54nrb forms a heterodimer with PSP1 that localizes to paraspeckles in an RNA-dependent manner. Molecular Biology of the Cell. 16 (11): 5304–15. doi:10.1091/mbc.E05-06-0587.",
+                "pmid": "16148043"
+            },
+            {
+                "quote": "Imamura K, Imamachi N, Akizuki G, Kumakura M, Kawaguchi A, Nagata K, et al. (February 2014). Long noncoding RNA NEAT1-dependent SFPQ relocation from promoter region to paraspeckle mediates IL8 expression upon immune stimuli. Molecular Cell. 53 (3): 393–406. doi:10.1016/j.molcel.2014.06.013.",
+                "pmid": "24507715"
+            },
+            {
+                "quote": "Hirose T, Virnicchi G, Tanigawa A, Naganuma T, Li R, Kimura H, et al. (January 2014). NEAT1 long noncoding RNA regulates transcription via protein sequestration within subnuclear bodies. Molecular Biology of the Cell. 25 (1): 169–83. doi:10.1091/mbc.e13-09-0558.",
+                "pmid": "24173718"
+            }
+        ],
+        "goId": "GO:0042382"
+    },
+    "Neuronal granule": {
+        "description": "In mammalian neurons, mRNAs to be targeted to these distant sites can be packaged into Neuronal granules (NGs), where they can remain translationally repressed until they are released at their final destination and translated in response to specific exogenous stimuli. Like stress granules (SGs), NGs contain mRNA, small and large ribosomal subunits, translation initiation factors and RNA-binding proteins that regulate mRNA function. Despite possessing ribosomes, mRNAs present within NGs are probably not translated until they reach the synapse, where their translation may require activating stimuli. SGs and NGs possess many of the same protein components, and Staufen, for example, can be transferred from NGs to SGs during stress in rat oligodendrocytes [1].",
+        "references": [
+            {
+                "quote": "Rajgor D, Shanahan CM (August 2014). RNA granules and cytoskeletal links. Biochem Soc Trans. 42(4):1206-10. doi: 10.1042/BST20140067.",
+                "pmid": "25110026"
+            }
+        ],
+        "goId": "GO:0071598"
+    },
+    "Perinucleolar compartment": {
+        "description": "The perinucleolar compartment (PNC) is a unique subnuclear structure that was originally described during the characterization of the hnRNP I/PTB (polypyrimidine tract binding) protein, in which the protein was shown to localize at a perinucleolar focus. [1] The PNC is irregularly shaped, ranging from .25 to 4 ?m in length, and is associated with the periphery of the nucleolus.[2][3] The PNC is a dynamic structure and is highly enriched in RNA-binding proteins and pol III RNA. The structural stability of the PNC is dependent on continuous pol III transcription and the presence of key proteins. PNC structure is maintained throughout interphase, disassembled during mitosis in conjunction with the disassociation of nucleoli, and is reassembled at late telophase as nucleoli begin to assemble. The PNC is commonly heritable from mother to daughter cells, and the PNCs of daughter cells are of similar shape, size, and number.[3] The PNC is associated with malignancy both in vitro and in vivo and its presence positively correlates with metastatic capacity, making it a potential cancer marker. [4]",
+        "references": [
+            {
+                "quote": "Ghetti A, Pi?ol-Roma S, Michael WM, Morandi C, Dreyfuss G (July 1992). hnRNP I, the polypyrimidine tract-binding protein: distinct nuclear localization and association with hnRNAs. Nucleic Acids Res. 20(14):3671-8. doi: 10.1093/nar/20.14.3671.",
+                "pmid": "1641332"
+            },
+            {
+                "quote": "Matera AG, Frey MR, Margelot K, Wolin SL (June 1995). A perinucleolar compartment contains several RNA polymerase III transcripts as well as the polypyrimidine tract-binding protein, hnRNP I. J Cell Biol. 129(5):1181-93. doi: 10.1083/jcb.129.5.1181. Erratum in: J Cell Biol 1995 Jul;130(2):497-500.",
+                "pmid": "7539809"
+            },
+            {
+                "quote": "Huang S, Deerinck TJ, Ellisman MH, Spector DL (June 1997). The dynamic organization of the perinucleolar compartment in the cell nucleus. J Cell Biol. 137(5):965-74. doi: 10.1083/jcb.137.5.965.",
+                "pmid": "9166399"
+            },
+            {
+                "quote": "Pollock C, Huang S (February 2010). The perinucleolar compartment. Cold Spring Harb Perspect Biol. 2(2):a000679. doi: 10.1101/cshperspect.a000679.",
+                "pmid": "20182614"
+            }
+        ]
+    },
+    "Histone locus body": {
+        "description": "Histone protein synthesis results from a large increase in production at the beginning of S phase of equal amounts of mRNAs encoding the four core nucleosomal histones, as well as histone H1. This highly coordinated gene expression event is performed by a set of transcription and pre-mRNA processing factors unique to replication dependent (RD) histone mRNA biosynthesis that assemble into a nuclear body tightly associated with RD histone genes called the histone locus body (HLB) [1]. HLB is a subdomain of the nucleus defined by a concentration of factors necessary for histone gene transcription and pre-mRNA processing [2]. ",
+        "references": [
+            {
+                "quote": "Duronio RJ, Marzluff WF (June 2017). Coordinating cell cycle-regulated histone gene expression through assembly and function of the Histone Locus Body. RNA Biol. 14(6):726-738. doi: 10.1080/15476286.2016.1265198.",
+                "pmid": "28059623"
+            },
+            {
+                "quote": "Barcaroli D, Dinsdale D, Neale MH, Bongiorno-Borbone L, Ranalli M, Munarriz E, Sayan AE, McWilliam JM, Smith TM, Fava E, Knight RA, Melino G, De Laurenzi V (October 2006). FLASH is an essential component of Cajal bodies. Proc Natl Acad Sci U S A. 103(40):14802-7. doi: 10.1073/pnas.0604225103.",
+                "pmid": "17003126"
+            }
+        ],
+        "goId": "GO:0035363"
+    },
+    "Cleavage body": {
+        "description": "Cleavage bodies were first identified by immunofluorescence labeling using antibodies against cleavage stimulation factor CstF-64 and the cleavage and polyadenylation specificity factor CPSF-100.[1] Transcription factors TFIIE and TFIIF have also been found to colocalize with cleavage bodies.[2] Cleavage bodies have diameters of 0.3–1 μm and range in number from 1 to 4 per nucleus. Based on FRET analysis and coimmunoprecipitation experiments, DDX1 and CstF-64 proteins are in close proximity to each other and can reside in the same complex. Cleavage bodies frequently associate with Cajal bodies.[3]",
+        "references": [
+            {
+                "quote": "Schul W, Groenhout B, Koberna K, Takagaki Y, Jenny A, Manders EM, Raska I, van Driel R, de Jong L (June 1996). The RNA 3' cleavage factors CstF 64 kDa and CPSF 100 kDa are concentrated in nuclear domains closely associated with coiled bodies and newly synthesized RNA. EMBO J. 15(11):2883-92.",
+                "pmid": "8654386"
+            },
+            {
+                "quote": "Gall JG (2000). Cajal bodies: the first 100 years. Annu Rev Cell Dev Biol. 16:273-300. doi: 10.1146/annurev.cellbio.16.1.273.",
+                "pmid": "11031238"
+            },
+            {
+                "quote": "Li L, Roy K, Katyal S, Sun X, Bléoo S, Godbout R (March 2006). Dynamic nature of cleavage bodies and their spatial relationship to DDX1 bodies, Cajal bodies, and gems. Mol Biol Cell. 17(3):1126-40. doi: 10.1091/mbc.e05-08-0768.",
+                "pmid": "16371507"
+            }
+        ]
+    },
+    "Insulator body": {
+        "description": "Insulator bodies are nuclear stress bodies that form in response to osmostress and cell death. Insulator proteins coalesce from diffusely distributed speckles into punctate insulator bodies rapidly in response to osmotic stress, exhibit dynamic behavior during the duration of stress, and rapidly recover to their prestressed state upon return to isotonicity. This correlates with a reduction in chromatin-bound insulator proteins during the duration of stress that is restored within minutes during recovery. Insulator bodies localize primarily to the nuclear periphery where they show transient associations with lamin, in addition to chromatin lacunas within the condensed chromatin mass. Interestingly, this behavior is independent of the high osmolarity glycerol (HOG)–p38 MAPK osmostress sensing pathway. [1]",
+        "references": [
+            {
+                "quote": "Schoborg T, Rickels R, Barrios J, Labrador M (July 2013). Chromatin insulator bodies are nuclear structures that form in response to osmotic stress and cell death. J Cell Biol. 202(2):261-76. doi: 10.1083/jcb.201304181.",
+                "pmid": "23878275"
+            }
+        ]
+    },
+    "Mitochondrial RNA granule": {
+        "description": "The various stages of mt-RNA processing in mitochondria appear to be spatially organized within foci, named mitochondrial RNA granules (MRGs).[1] In mitochondria, MRGs comprise newly synthesized mitochondrial RNAs (mtRNAs), transcribed from the 16-kb mitochondrial DNA (mtDNA) as long polycistronic precursors, as well as mitochondrial RBPs.[2][3][4] It was previously demonstrated that mtRNA is essential for MRG formation.[5] In addiction, MRGs contain a toolbox of proteins for RNA metabolism. Investigation of four uncharacterized putative RNA-binding proteins—two RNA helicases, DHX30 and DDX28, and two proteins of the Fas-activated serine-threonine kinase (FASTKD) family, FASTKD2 and FASTKD5—demonstrated that both helicases and FASTKD2 are required for mitochondrial ribosome biogenesis.[6] MRG are centers for posttranscriptional RNA processing and the biogenesis of mitochondrial ribosomes.",
+        "references": [
+            {
+                "quote": "Zaganelli S, Rebelo-Guiomar P, Maundrell K, Rozanska A, Pierredon S, Powell CA, Jourdain AA, Hulo N, Lightowlers RN, Chrzanowska-Lightowlers ZM, Minczuk M, Martinou JC (March 2017). The Pseudouridine Synthase RPUSD4 Is an Essential Component of Mitochondrial RNA Granules. J Biol Chem. 292(11):4519-4532. doi: 10.1074/jbc.M116.771105.",
+                "pmid": "28082677"
+            },
+            {
+                "quote": "Antonicka H, Sasarman F, Nishimura T, Paupe V, Shoubridge EA (March 2013). The mitochondrial RNA-binding protein GRSF1 localizes to RNA granules and is required for posttranscriptional mitochondrial gene expression. Cell Metab. 17(3):386-98. doi: 10.1016/j.cmet.2013.02.006.",
+                "pmid": "23473033"
+            },
+            {
+                "quote": "Iborra FJ, Kimura H, Cook PR (May 2004). The functional organization of mitochondrial genomes in human cells. BMC Biol. 2:9. doi: 10.1186/1741-7007-2-9.",
+                "pmid": "15157274"
+            },
+            {
+                "quote": "Jourdain AA, Koppen M, Rodley CD, Maundrell K, Gueguen N, Reynier P, Guaras AM, Enriquez JA, Anderson P, Simarro M, Martinou JC (February 2015). A mitochondria-specific isoform of FASTK is present in mitochondrial RNA granules and regulates gene expression and function. Cell Rep. 10(7):1110-21. doi: 10.1016/j.celrep.2015.01.063.",
+                "pmid": "25704814"
+            },
+            {
+                "quote": "Jourdain AA, Koppen M, Wydro M, Rodley CD, Lightowlers RN, Chrzanowska-Lightowlers ZM, Martinou JC (March 2013). GRSF1 regulates RNA processing in mitochondrial RNA granules. Cell Metab. 17(3):399-410. doi: 10.1016/j.cmet.2013.02.005.",
+                "pmid": "23473034"
+            },
+            {
+                "quote": "Antonicka H, Shoubridge EA (February 2015). Mitochondrial RNA Granules Are Centers for Posttranscriptional RNA Processing and Ribosome Biogenesis. Cell Rep. 10(6):920-932. doi: 10.1016/j.celrep.2015.01.030.",
+                "pmid": "25683715"
+            }
+        ]
+    },
+    "DDX1 body": {
+        "description": "The DEAD box protein DDX1 is a putative RNA unwinding protein that has been associated with RNA processing as well as RNA transport[1][2]. DDX1 has a widespread punctate distribution pattern in the nucleus and is also found in discrete nuclear bodies with an estimated diameter of ~0.5 μm[1]. These DDX1 bodies frequently colocalize with cleavage bodies. Cleavage bodies were first identified by immunofluorescence labeling using antibodies against cleavage stimulation factor CstF-64 and the cleavage and polyadenylation specificity factor CPSF-100[3]. Based on FRET analysis and coimmunoprecipitation experiments, DDX1 and CstF-64 proteins are in close proximity to each other and can reside in the same complex[4]. DDX1 bodies often exist independent of CstF-64- and CPSF-100-containing cleavage bodies, especially during G1 phase[5].",
+        "references": [
+            {
+                "quote": "Bléoo S, Sun X, Hendzel MJ, Rowe JM, Packer M, Godbout R (October 2001). Association of human DEAD box protein DDX1 with a cleavage stimulation factor involved in 3'-end processing of pre-MRNA. Mol Biol Cell. 12(10):3046-59. doi: 10.1091/mbc.12.10.3046.",
+                "pmid": "11598190"
+            },
+            {
+                "quote": "Kanai Y, Dohmae N, Hirokawa N (August 2004). Kinesin transports RNA: isolation and characterization of an RNA-transporting granule. Neuron. 43(4):513-25. doi: 10.1016/j.neuron.2004.07.022.",
+                "pmid": "15312650"
+            },
+            {
+                "quote": "Schul W, Groenhout B, Koberna K, Takagaki Y, Jenny A, Manders EM, Raska I, van Driel R, de Jong L (June 1996). The RNA 3' cleavage factors CstF 64 kDa and CPSF 100 kDa are concentrated in nuclear domains closely associated with coiled bodies and newly synthesized RNA. EMBO J. 15(11):2883-92.",
+                "pmid": "8654386"
+            },
+            {
+                "quote": "Gall JG (2000). Cajal bodies: the first 100 years. Annu Rev Cell Dev Biol. 16:273-300. doi: 10.1146/annurev.cellbio.16.1.273.",
+                "pmid": "11031238"
+            },
+            {
+                "quote": "Li L, Roy K, Katyal S, Sun X, Bléoo S, Godbout R (March 2006). Dynamic nature of cleavage bodies and their spatial relationship to DDX1 bodies, Cajal bodies, and gems. Mol Biol Cell. 17(3):1126-40. doi: 10.1091/mbc.e05-08-0768.",
+                "pmid": "16371507"
+            }
+        ]
+    },
+    "Sam68 nuclear body": {
+        "description": "The Sam68 nuclear body (SNB) was originally discovered as the nuclear body (NB) that is usually observed in the perinucleolar region.[1] The SNB contains Sam68 (Src associated in mitosis of 68-kD protein, or KHDRBS1), which is a member of the signal transduction and activation of RNA family of RNA-binding proteins characterized by an HNRNP K homology (KH) domain embedded in a highly conserved region called the GRP33/Sam68/GLD1 (GSG) domain.[2] Electron microscopy studies showed that SNBs contained nucleic acids, which are likely RNA, and targeting of Sam68 to SNBs involves the GSG domain.[1] As additional SNB components, three RNA-binding proteins have been identified: two Sam68-like mammalian proteins, SLM1 and SLM2 with a KH domain, which are predominantly expressed in neuronal cells, and HNRNPL, with four RNA recognition motifs.[3][4]",
+        "references": [
+            {
+                "quote": "Chen T, Boisvert FM, Bazett-Jones DP, Richard S (September 1999). A role for the GSG domain in localizing Sam68 to novel nuclear structures in cancer cell lines. Mol Biol Cell. 10(9):3015-33. doi: 10.1091/mbc.10.9.3015.",
+                "pmid": "10473643"
+            },
+            {
+                "quote": "Jones AR, Schedl T (June 1995). Mutations in gld-1, a female germ cell-specific tumor suppressor gene in Caenorhabditis elegans, affect a conserved domain also found in Src-associated protein Sam68. Genes Dev. 9(12):1491-504. doi: 10.1101/gad.9.12.1491.",
+                "pmid": "7601353"
+            },
+            {
+                "quote": "Rajan P, Dalgliesh C, Bourgeois CF, Heiner M, Emami K, Clark EL, Bindereif A, Stevenin J, Robson CN, Leung HY, Elliott DJ (November 2009). Proteomic identification of heterogeneous nuclear ribonucleoprotein L as a novel component of SLM/Sam68 Nuclear Bodies. BMC Cell Biol. 10:82. doi: 10.1186/1471-2121-10-82.",
+                "pmid": "19912651"
+            },
+            {
+                "quote": "Mannen T, Yamashita S, Tomita K, Goshima N, Hirose T (July 2016). The Sam68 nuclear body is composed of two RNase-sensitive substructures joined by the adaptor HNRNPL. J Cell Biol. 214(1):45-59. doi: 10.1083/jcb.201601024.",
+                "pmid": "27377249"
+            }
+        ]
+    },
+    "OPT domain": {
+        "description": "OPT domain is short for Oct1/PTF/transcription domain. In some cells, PTF is also concentrated in a few, usually one, discrete domain(s) (diameter~1.3 μm). Oct1 has also been found in a domain of similar size in a fraction of cells [1]; it colocalizes with the PTF domain. This PTF/Oct1 domain typically contains several transcription factories that incorporate Br-UTP into nascent transcripts, as well as local concentrations of RNA polymerase II, TBP and Sp1. It contains little, if any, of some components involved in RNA processing (i.e. SC35, Sm antigens, hnRNP I and L, CstF 64; Figure 5A–C and data not shown; see also Saunders et al., 1991). OPT domains assemble during G1 phase, and disappear early during S phase.[2] The domains may act like nucleoli to bring particular genes on specific chromosomes together to a region where the appropriate transcription and processing factors are concentrated, thereby facilitating the expression of those genes. In fact, incomplete DNA synthesis during S phase leads to a DNA damage response and formation of 53BP1-OPT domains in the subsequent G1, which indicates that replication stress induces 53BP1-containing OPT domains in G1 cells.[3]",
+        "references": [
+            {
+                "quote": "Grande MA, van der Kraan I, de Jong L, van Driel R (August 1997). Nuclear distribution of transcription factors in relation to sites of transcription and RNA polymerase II. J Cell Sci. 110 ( Pt 15):1781-91.",
+                "pmid": "9264465"
+            },
+            {
+                "quote": "Pombo A, Cuello P, Schul W, Yoon JB, Roeder RG, Cook PR, Murphy S (March 1998). Regional and temporal specialization in the nucleus: a transcriptionally-active nuclear domain rich in PTF, Oct1 and PIKA antigens associates with specific chromosomes early in the cell cycle. EMBO J. 17(6):1768-78. doi: 10.1093/emboj/17.6.1768.",
+                "pmid": "9501098"
+            },
+            {
+                "quote": "Harrigan JA, Belotserkovskaya R, Coates J, Dimitrova DS, Polo SE, Bradshaw CR, Fraser P, Jackson SP (April 2011). Replication stress induces 53BP1-containing OPT domains in G1 cells. J Cell Biol. 193(1):97-108. doi: 10.1083/jcb.201011083.",
+                "pmid": "21444690"
+            }
+        ]
+    },
+    "Nuclear stress body": {
+        "description": "The nuclear stress bodies are constituted of phosphorus-rich fibers and granules that evident the presence of ribonucleoprotein (RNP) complexes. These are synthesized from the pericentromeric region of chromosome locus 9q12 by RNA polymerase II (RNA Pol II), polyadenylated and are comprised by a characteristic repeat of GGAAT motif which signifies the human satellite III (SatIII) long noncoding RNA (lncRNA) repeat domain.[1][2][3] The major components of nSBs may be divided into protein and nonprotein counterparts, where heat shock factors 1 and 2 (HSF1 and HSF2), scaffold attachment factor B (SAF-B), Src-associated in mitosis 68?kDa protein (Sam68), and the SRSF protein family members, SRSF1, SRSF7, and SRSF9 are the protein components. The only nonprotein component of the nSBs is the Satellite III lncRNA that functions as a key regulator of heat shock response.[4][5]",
+        "references": [
+            {
+                "quote": "Sengupta S, Parihar R, Ganesh S (April 2009). Satellite III non-coding RNAs show distinct and stress-specific patterns of induction. Biochem Biophys Res Commun. 382(1):102-7. doi: 10.1016/j.bbrc.2009.02.137.",
+                "pmid": "19258006"
+            },
+            {
+                "quote": "Denegri M, Chiodi I, Corioni M, Cobianchi F, Riva S, Biamonti G (November 2001). Stress-induced nuclear bodies are sites of accumulation of pre-mRNA processing factors. Mol Biol Cell. 12(11):3502-14. doi: 10.1091/mbc.12.11.3502.",
+                "pmid": "11694584"
+            },
+            {
+                "quote": "Denegri M, Moralli D, Rocchi M, Biggiogera M, Raimondi E, Cobianchi F, De Carli L, Riva S, Biamonti G (June 2002). Human chromosomes 9, 12, and 15 contain the nucleation sites of stress-induced nuclear bodies. Mol Biol Cell. 13(6):2069-79. doi: 10.1091/mbc.01-12-0569.",
+                "pmid": "12058070"
+            },
+            {
+                "quote": "Jolly C, Metz A, Govin J, Vigneron M, Turner BM, Khochbin S, Vourc'h C (January 2004). Stress-induced transcription of satellite III repeats. J Cell Biol. 164(1):25-33. doi: 10.1083/jcb.200306104.",
+                "pmid": "14699086"
+            },
+            {
+                "quote": "Morimoto M, Boerkoel CF (July 2013). The role of nuclear bodies in gene expression and disease. Biology (Basel). 2(3):976-1033. doi: 10.3390/biology2030976.",
+                "pmid": "24040563"
+            }
+        ]
+    },
+    "Receptor cluster": {
+        "description": "Receptor clusters is groups of colocalized molecules that often participate in the detection of external signals and subsequently drive responses within the cell[1]. Clustering of proteins into micrometer-sized structures at membranes is observed in many signaling pathways. Most models of clustering are specific to particular systems, and relationships between physical properties of the clusters and their molecular components are not well understood. Polymerization and concomitant phase separation is a general mechanism to create membrane clusters[2]. Besides, T cell receptors microclusters are a substructure within the T cell immunological synapse, which have now emerged as the primary functional signaling units[3].",
+        "references": [
+            {
+                "quote": "Mugler A, Bailey AG, Takahashi K, ten Wolde PR (March 2012). Membrane clustering and the role of rebinding in biochemical signaling. Biophys J. 102(5):1069-78. doi: 10.1016/j.bpj.2012.02.005.",
+                "pmid": "22404929"
+            },
+            {
+                "quote": "Banjade S, Rosen MK (October 2014). Phase transitions of multivalent proteins can promote clustering of membrane receptors. Elife. 3:e04123. doi: 10.7554/eLife.04123.",
+                "pmid": "25321392"
+            },
+            {
+                "quote": "Dustin ML, Groves JT (2012). Receptor signaling clusters in the immune synapse. Annu Rev Biophys. 41:543-56. doi: 10.1146/annurev-biophys-042910-155238.",
+                "pmid": "22404679"
+            }
+        ]
+    },
+    "P granule": {
+        "description": "P granules are the Caenorhabditis elegans ‘germ granules’, a class of perinuclear RNA granules specific to the germline. The defining components of P granules are two classes of RNA-binding proteins: the RGG-domain proteins, PGL-1 and PGL-3; and the DEAD-box proteins, GLH-1–4 (also related to Drosophila Vasa) [1]. P granules get their name from the P lineage, the embryonic lineage that gives rise to the germline. P granules segregate asymmetrically with the P lineage during embryogenesis and are maintained in germ cells throughout life (except for mature sperm). P granules should not be confused with P-bodies (also called processing bodies), a different class of RNA granules present in all cells [2].",
+        "references": [
+            {
+                "quote": "Wang JT, Seydoux G (July 2014). P granules. Curr Biol. 24(14):R637-R638. doi: 10.1016/j.cub.2014.06.018.",
+                "pmid": "25050955"
+            },
+            {
+                "quote": "Gallo CM, Wang JT, Motegi F, Seydoux G (December 2010). Cytoplasmic partitioning of P granule components is not required to specify the germline in C. elegans. Science. 330(6011):1685-9. doi: 10.1126/science.1193697.",
+                "pmid": "21127218"
+            }
+        ],
+        "goId": "GO:0043186"
+    },
+    "Nuage": {
+        "description": "Nuage, meaning “cloud” in French, is an electron dense, fibrous organelle that lacks a limiting membrane. It is consistently associated with the cytoplasmic side of the nuclear envelope.[1][2] Nuage represents a type of RNP granule specific to both male and female germ cells and shares many characteristics with the RNP granules found in somatic cells, such as processing bodies (P bodies) and stress granules. Nuage derives from germ granules/polar granules earlier in development. Whereas germ granules in embryos play key roles in mRNA regulation to specify germ cell identity, nuage in adult germ cells is mainly involved in piRNA production.[3] It is now widely accepted that the nuage concentrates the components of the piRNA pathway, which suppresses selfish elements such as transposons.[4][5][6] In the absence of piRNA pathway function, selfish elements such as transposons are derepressed in the germline, leading to germ cell loss and thus infertility both in the male and female germline.",
+        "references": [
+            {
+                "quote": "Mahowald AP (2001). Assembly of the Drosophila germ plasm. Int Rev Cytol. 203:187-213. doi: 10.1016/s0074-7696(01)03007-8.",
+                "pmid": "11131516"
+            },
+            {
+                "quote": "Eddy EM (1975). Germ plasm and the differentiation of the germ cell line. Int Rev Cytol. 43:229-80. doi: 10.1016/s0074-7696(08)60070-4.",
+                "pmid": "770367"
+            },
+            {
+                "quote": "Yamashita YM (January 2018). Subcellular Specialization and Organelle Behavior in Germ Cells. Genetics. 208(1):19-51. doi: 10.1534/genetics.117.300184.",
+                "pmid": "29301947"
+            },
+            {
+                "quote": "Klattenhoff C, Theurkauf W (January 2008). Biogenesis and germline functions of piRNAs. Development. 135(1):3-9. doi: 10.1242/dev.006486.",
+                "pmid": "18032451"
+            },
+            {
+                "quote": "Ghildiyal M, Zamore PD (February 2009). Small silencing RNAs: an expanding universe. Nat Rev Genet. 10(2):94-108. doi: 10.1038/nrg2504.",
+                "pmid": "19148191"
+            },
+            {
+                "quote": "Siomi MC, Sato K, Pezic D, Aravin AA (April 2011). PIWI-interacting small RNAs: the vanguard of genome defence. Nat Rev Mol Cell Biol. 12(4):246-58. doi: 10.1038/nrm3089.",
+                "pmid": "21427766"
+            }
+        ],
+        "goId": "GO:0060293"
+    },
+    "U body": {
+        "description": "U bodies are cytoplasmic structures that contain uridine-rich snRNPs, the SMN complex, and the snRNP assembly machinery. U bodies closely associate with P bodies in the cytoplasm of nurse cells and oocytes, and mutations in U body components such as SMN and gemin3 phenocopy mutations for some P body components during Drosophila oogenesis[1]. Bacterial infection resulted in the rerouting of U snRNAs and their cytoplasmic escort, the survival motor neuron (SMN) complex, to P bodies, thus forming U snRNA bodies (U bodies).  U body formation was triggered by membrane damage in infected cells and was associated with the induction of metabolic stresses, such as AAS or endoplasmic reticulum stress[2]. U bodies have recently been described in D. melanogaster ovary, testis, brain and gut and in X. laevis and human cells as discrete 200–400 nm nonmembranous cytoplasmic microdomains containing uridine-rich small nuclear ribonucleoproteins U1, U2, U4/U6 and U5[3].",
+        "references": [
+            {
+                "quote": "Schisa JA (2014). Effects of stress and aging on ribonucleoprotein assembly and function in the germ line. Wiley Interdiscip Rev RNA. 5(2):231-46. doi: 10.1002/wrna.1204.",
+                "pmid": "24523207"
+            },
+            {
+                "quote": "Tsalikis J, Tattoli I, Ling A, Sorbara MT, Croitoru DO, Philpott DJ, Girardin SE (August 2015). Intracellular Bacterial Pathogens Trigger the Formation of U Small Nuclear RNA Bodies (U Bodies) through Metabolic Stress Induction. J Biol Chem. 290(34):20904-20918. doi: 10.1074/jbc.M115.659466.",
+                "pmid": "26134566"
+            },
+            {
+                "quote": "Moser JJ, Fritzler MJ (2013). Relationship of other cytoplasmic ribonucleoprotein bodies (cRNPB) to GW/P bodies. Adv Exp Med Biol. 768:213-42. doi: 10.1007/978-1-4614-5107-5_13.",
+                "pmid": "23224973"
+            }
+        ]
+    },
+    "Chromatoid body": {
+        "description": "A chromatoid body is a dense structure in the cytoplasm of male germ cells. It is composed mainly of RNAs and RNA-binding proteins and is thus a type of RNP granule. Chromatoid body-like granules first appear in spermatocytes and condense into a single granule in round spermatids.[1] The structure disappears again when spermatids start to elongate. The chromatoid body is crucial for spermatogenesis but its exact role in the process is not known. However, due to similarities with RNP granules found in somatic cells – such as stress granules and processing bodies – chromatoid body is thought to be involved in post-transcriptional regulation of gene expression.[2] As chromatoid body is significantly bigger than other known RNP granules it is seen even with light microscopy and was discovered already in 1876 by A. von Brunn.[3]",
+        "references": [
+            {
+                "quote": "Fawcett, D.; E. Eddy; M. Phillips (1970). Observations on the fine structure and relationships of the chromatoid body in mammalian spermatogenesis. Biology of Reproduction. 2 (1): 129–153. doi:10.1095/biolreprod2.1.129",
+                "pmid": "4106274"
+            },
+            {
+                "quote": "Anderson, P.; N. Kedersha (2009). RNA granules: post-transcriptional and epigenetic modulators of gene expression. Nature Reviews Molecular Cell Biology. 10 (6): 430–436. doi:10.1038/nrm2694.",
+                "pmid": "19461665"
+            },
+            {
+                "quote": "von Brunn, A. (1876). Beitr?ge zur Entwicklungsgeschichte der Samenk?rper. Archiv für mikroskopische Anatomie. 12 (1): 528–535. doi:10.1007/BF02933904.",
+                "pmid": ""
+            }
+        ]
+    },
+    "PcG body": {
+        "description": "Polycomb Group (PcG) proteins are concentrated in nuclear foci called PcG bodies. Although the some of these foci are due to the tendency of PcG binding sites in the genome to occur in linear clusters, distant PcG sites can contact one another and in some cases congregate in the same PcG body when they are repressed [1]. PcG bodies are much larger than the widespread chromatin-associated PcG foci, which can be observed in most cells. PcG bodies appear frequently in melanoma cells but can be found in many types of cancer. PcG proteins condensate to form PcG aggregates though phase seperation. PcG bodies have been demonstrated to be associated with the megabase PCH region located on 1q12 and with similar PCH structures on chromosome 9 and 10 [2].",
+        "references": [
+            {
+                "quote": "Pirrotta V, Li HB (April 2012). A view of nuclear Polycomb bodies. Curr Opin Genet Dev. 22(2):101-9. doi: 10.1016/j.gde.2011.11.004.",
+                "pmid": "22178420"
+            },
+            {
+                "quote": "Johansen S, Gjerstorff MF (January 2020). Interaction between Polycomb and SSX Proteins in Pericentromeric Heterochromatin Function and Its Implication in Cancer. Cells. 9(1):226. doi: 10.3390/cells9010226.",
+                "pmid": "31963307"
+            }
+        ]
+    },
+    "Balbiani body": {
+        "description": "The Balbiani body is a non-membrane bound compartment packed with mitochondria, E.R, Golgi, and RNA [1]. It is present in the cytoplasm of all vertebrate oocytes in which it has been looked for. The Balbiani body is a transient structure, as it only exists in the dormant oocytes, and disperses once the oocyte is activated [2]. The function of the Balbiani body remains elusive, although it is proposed to protect mitochondria and RNA in the germline [3][4]. This enigmatic super-organelle has been observed in, among others, humans [5], monkeys [6], cats [7], frogs [8][9]and zebrafish [10]. Recent research suggested that mouse primordial oocytes also contain a Balbiani body [11].",
+        "references": [
+            {
+                "quote": "Boke E, Ruer M, Wühr M, Coughlin M, Lemaitre R, Gygi SP, Alberti S, Drechsel D, Hyman AA, Mitchison TJ (July 2016). Amyloid-like Self-Assembly of a Cellular Compartment. Cell. 166(3):637-650. doi: 10.1016/j.cell.2016.06.051.",
+                "pmid": "27471966"
+            },
+            {
+                "quote": "Pepling ME, Wilhelm JE, O'Hara AL, Gephardt GW, Spradling AC (January 2007). Mouse oocytes within germ cell cysts and primordial follicles contain a Balbiani body. Proc Natl Acad Sci U S A. 104(1):187-92. doi: 10.1073/pnas.0609923104.",
+                "pmid": "17189423"
+            },
+            {
+                "quote": "Jamieson-Lucy A, Mullins MC (2019). The vertebrate Balbiani body, germ plasm, and oocyte polarity. Curr Top Dev Biol. 135:1-34. doi: 10.1016/bs.ctdb.2019.04.003.",
+                "pmid": "31155356"
+            },
+            {
+                "quote": "Kloc M, Bilinski S, Etkin LD (2004). The Balbiani body and germ cell determinants: 150 years later. Curr Top Dev Biol. 59:1-36. doi: 10.1016/S0070-2153(04)59001-4.",
+                "pmid": "14975245"
+            },
+            {
+                "quote": "Hertig, A. T., & Adams, E. C. (1967). Studies on the human oocyte and its follicle. I. Ultrastructural and histochemical observations on the primordial follicle stage. The Journal of cell biology, 34(2), 647–675. https://doi.org/10.1083/jcb.34.2.647.",
+                "pmid": "4292010"
+            },
+            {
+                "quote": "Hope J (June 1965). The fine structure of the developing follicle of the rhesus ovary. J Ultrastruct Res. 12(5):592-610. doi: 10.1016/s0022-5320(65)80050-8.",
+                "pmid": "4953463"
+            },
+            {
+                "quote": "Amselgruber W (September 1983). Licht- und elektronenmikroskopische Untersuchungen zur Oogenese der Katze (Felis catus) [Light and electron microscopy studies of oogenesis in the cat]. Anat Histol Embryol. 12(3):193-229. German. doi: 10.1111/j.1439-0264.1983.tb01014.x.",
+                "pmid": "6228161"
+            },
+            {
+                "quote": "al-Mukhtar KA, Webb AC (Octorber 1971). An ultrastructural study of primordial germ cells, oogonia and early oocytes in Xenopus laevis. J Embryol Exp Morphol. 26(2):195-217.",
+                "pmid": "5168216"
+            },
+            {
+                "quote": "Boke E, Ruer M, Wühr M, Coughlin M, Lemaitre R, Gygi SP, Alberti S, Drechsel D, Hyman AA, Mitchison TJ (July 2016). Amyloid-like Self-Assembly of a Cellular Compartment. Cell. 166(3):637-650. doi: 10.1016/j.cell.2016.06.051.",
+                "pmid": "27471966"
+            },
+            {
+                "quote": "Marlow FL, Mullins MC (September 2008). Bucky ball functions in Balbiani body assembly and animal-vegetal polarity in the oocyte and follicle cell layer in zebrafish. Dev Biol. 321(1):40-50. doi: 10.1016/j.ydbio.2008.05.557.",
+                "pmid": "18582455"
+            },
+            {
+                "quote": "Lei L, Spradling AC (April 2016). Mouse oocytes differentiate through organelle enrichment from sister cyst germ cells. Science. 352(6281):95-9. doi: 10.1126/science.aad2156.",
+                "pmid": "26917595"
+            }
+        ]
+    },
+    "Germ granules": {
+        "description": "\"Germ granules\" are cytoplasmic, nonmembrane-bound organelles unique to germline. Germ granules share components with the P bodies and stress granules of somatic cells, but also contain proteins and RNAs uniquely required for germ cell development.[1] By electron microscopy, germ granules appear as compact granulo-fibrillar aggregates with no surrounding membrane.[2][3] In some organisms (i.e., Drosophila, Xenopus, Caenorhabditis elegans, and zebrafish), germ granules are present continuously throughout development, with the exception of mature sperm. In those organisms, germ granules are transmitted from oocyte to embryo as part of the germ plasm, a specialized cytoplasm that segregates with the germ lineage and is sufficient to specify germ cell fate. In other organisms, notably mammals, germ granules are not detected in oocytes or early embryos, but are formed de novo in primordial germ cells shortly after their specification.",
+        "references": [
+            {
+                "quote": "Voronina E, Seydoux G, Sassone-Corsi P, Nagamori I (December, 2011). RNA granules in germ cells. Cold Spring Harb Perspect Biol. 3(12):a002774. doi: 10.1101/cshperspect.a002774.",
+                "pmid": "21768607"
+            },
+            {
+                "quote": "Eddy EM (1975). Germ plasm and the differentiation of the germ cell line. Int Rev Cytol. 43:229-80. doi: 10.1016/s0074-7696(08)60070-4.",
+                "pmid": "770367"
+            },
+            {
+                "quote": "Guraya SS (1979). Recent advances in the morphology, cytochemistry, and function of Balbiani's vitelline body in animal oocytes. Int Rev Cytol. 59:249-321. doi: 10.1016/s0074-7696(08)61664-2.",
+                "pmid": "385545"
+            }
+        ]
+    },
+    "Centrosome": {
+        "description": "In cell biology, the centrosome is an organelle that serves as the main microtubule organizing center (MTOC) of the animal cell, as well as a regulator of cell-cycle progression. The centrosome provides structure for the cell. The centrosome is thought to have evolved only in the metazoan lineage of eukaryotic cells [1].  Although the centrosome has a key role in efficient mitosis in animal cells, it is not essential in certain fly and flatworm species [2][3].\nCentrosomes are composed of two centrioles arranged at right angles to each other, and surrounded by a dense, highly structured [4] mass of protein termed the pericentriolar material (PCM). The PCM contains proteins responsible for microtubule nucleation and anchoring [5] — including γ-tubulin, pericentrin and ninein. In general, each centriole of the centrosome is based on a nine-triplet microtubule assembled in a cartwheel structure, and contains centrin, cenexin and tektin [6]. In many cell types, the centrosome is replaced by a cilium during cellular differentiation. However, once the cell starts to divide, the cilium is replaced again by the centrosome [7].",
+        "references": [
+            {
+                "quote": "Bornens, M.; Azimzadeh, J. (2008). Origin and Evolution of the Centrosome. Advances in Experimental Medicine and Biology. 607. pp. 119–129. doi:10.1007/978-0-387-74021-8_10.",
+                "pmid": "17977464"
+            },
+            {
+                "quote": "Mahoney, N. M.; Goshima, G.; Douglass, A. D.; Vale, R. D. (2006). Making Microtubules and Mitotic Spindles in Cells without Functional Centrosomes. Current Biology. 16 (6): 564–569. doi:10.1016/j.cub.2006.01.053.",
+                "pmid": "16546079"
+            },
+            {
+                "quote": "Azimzadeh, Juliette; Wong, Mei Lie; Downhour, Diane Miller; Alvarado, Alejandro Sánchez; Marshall, Wallace F. (2012). Centrosome Loss in the Evolution of Planarians. Science (published 5 January 2012). 335 (6067): 461–463. doi:10.1126/science.1214457.",
+                "pmid": "22223737"
+            },
+            {
+                "quote": "Lawo, Steffen; Hasegan, Monica; Gupta, Gagan D.; Pelletier, Laurence (November 2012). Subdiffraction imaging of centrosomes reveals higher-order organizational features of pericentriolar material. Nature Cell Biology. 14 (11): 1148–1158. doi:10.1038/ncb2591.",
+                "pmid": "23086237"
+            },
+            {
+                "quote": "Eddé, B.; Rossier; Le Caer; Desbruyères; Gros; Denoulet (1990). Posttranslational glutamylation of alpha-tubulin. Science. 247 (4938): 83–85. doi:10.1126/science.1967194.",
+                "pmid": "1967194"
+            },
+            {
+                "quote": "Rieder, C. L.; Faruki, S.; Khodjakov, A. (Oct 2001). The centrosome in vertebrates: more than a microtubule-organizing center. Trends in Cell Biology. 11 (10): 413–419. doi:10.1016/S0962-8924(01)02085-2.",
+                "pmid": "11567874"
+            },
+            {
+                "quote": "Avidor-Reiss, T; Gopalakrishnan, J (2013). Cell Cycle Regulation of the Centrosome and Cilium. Drug Discov Today Dis Mech. 10 (3–4): e119–e124. doi:10.1016/j.ddmec.2013.03.002.",
+                "pmid": "24982683"
+            }
+        ],
+        "goId": "GO:0005813"
+    },
+    "Chromatin": {
+        "description": "Chromatin is a complex of DNA, protein and RNA found in eukaryotic cells.[1] Its primary function is packaging long DNA molecules into more compact, denser structures. This prevents the strands from becoming tangled and also plays important roles in reinforcing the DNA during cell division, preventing DNA damage, and regulating gene expression and DNA replication. During mitosis and meiosis, chromatin facilitates proper segregation of the chromosomes in anaphase; the characteristic shapes of chromosomes visible during this stage are the result of DNA being coiled into highly condensed chromatin.\nThe overall structure of the chromatin network further depends on the stage of the cell cycle. During interphase, the chromatin is structurally loose to allow access to RNA and DNA polymerases that transcribe and replicate the DNA. The local structure of chromatin during interphase depends on the specific genes present in the DNA. Regions of DNA containing genes which are actively transcribed (\"turned on\") are less tightly compacted and closely associated with RNA polymerases in a structure known as euchromatin, while regions containing inactive genes (\"turned off\") are generally more condensed and associated with structural proteins in heterochromatin.[2] Epigenetic modification of the structural proteins in chromatin via methylation and acetylation also alters local chromatin structure and therefore gene expression. The structure of chromatin networks is currently poorly understood and remains an active area of research in molecular biology.",
+        "references": [
+            {
+                "quote": "Monday, Tanmoy (July 2010). Characterization of the RNA content of chromatin. Genome Res. 20 (7): 899–907. doi:10.1101/gr.103473.109.",
+                "pmid": "20404130"
+            },
+            {
+                "quote": "Dame, R.T. (May 2005). The role of nucleoid-associated proteins in the organization and compaction of bacterial chromatin. Molecular Microbiology. 56 (4): 858–870. doi:10.1111/j.1365-2958.2005.04598.x.",
+                "pmid": "15853876"
+            }
+        ]
+    },
+    "Coacervate droplet": {
+        "description": "Coacervate is an aqueous phase rich in macromolecules such as synthetic polymers, proteins or nucleic acids. It forms through liquid-liquid phase separation (LLPS), leading to a dense phase in thermodynamic equilibrium with a dilute phase. The dispersed droplets of dense phase are also called coacervates, micro-coacervates or coacervate droplets.These structures draw a lot of interest because they form spontaneously from aqueous mixtures and provide stable compartmentalization without the need of a membrane.\nThe term coacervate was coined in 1929 by Dutch chemist Hendrik G. Bungenberg de Jong and Hugo R. Kruyt while studying lyophilic colloidal dispersions [1]. The name is a reference to the clustering of colloidal particles, like bees in a swarm. The concept was later borrowed by Russian biologist Alexander I. Oparin to describe the proteinoid microspheres proposed to be primitive cells (protocells) on early Earth [2]. Coacervate-like protocells are at the core of the Oparin-Haldane hypothesis.\nA reawakening of coacervate research was seen in the 2000s, starting with the recognition in 2004 by Scientists at the University of California, Santa Barbara (UCSB) that some marine invertebrates (such as the sandcastle worm) exploit complex coacervation to produce water-resistant biological adhesives [3][4]. A few years later in 2009 the role of liquid-liquid phase separation was further recognized to be involved in the formation of certain membraneless organelles by American biophysicist Clifford Brangwynne and Tony Hyman [5]. Liquid organelles share features with coacervate droplets and fueled the study of coacervates for biomimicry [6][7].",
+        "references": [
+            {
+                "quote": "Booij, H. L.; Bungenberg de Jong, H. G. (1956), Colloid Systems, Biocolloids and their Interactions, Vienna: Springer Vienna, pp. 8–14, doi:10.1007/978-3-7091-5456-4_2.",
+                "pmid": ""
+            },
+            {
+                "quote": "Oparin, Aleksandr Ivanovich; Synge, Ann. (1957). The origin of life on the earth / Translated from the Russian by Ann Synge. New York: Academic Press. doi:10.5962/bhl.title.4528.",
+                "pmid": ""
+            },
+            {
+                "quote": "Stewart, R.J.; Weaver, J.C.; Morse, D.E.; Waite, J.H (2004). The Tube Cement of Phragmatopoma californica: a solid foam. The Journal of Experimental Biology. 207 (26): 4727–34. doi:10.1242/jeb.01330.",
+                "pmid": "15579565"
+            },
+            {
+                "quote": "Zhao, H.; Sun, C.; Stewart, R.J.; Waite, J.H. (2005). Cement Proteins of the Tube-Building Polychaete Phragmatopoma californica. The Journal of Biological Chemistry. 280 (52): 42938–44. doi:10.1074/jbc.M508457200.",
+                "pmid": "16227622"
+            },
+            {
+                "quote": "Brangwynne, C. P.; Eckmann, C. R.; Courson, D. S.; Rybarska, A.; Hoege, C.; Gharakhani, J.; Julicher, F.; Hyman, A. A. (2009-06-26). Germline P Granules Are Liquid Droplets That Localize by Controlled Dissolution/Condensation. Science. 324 (5935): 1729–1732. doi:10.1126/science.1172046.",
+                "pmid": "19460965"
+            },
+            {
+                "quote": "Nakashima, Karina K.; Vibhute, Mahesh A.; Spruijt, Evan (2019-04-03). Biomolecular Chemistry in Liquid Phase Separated Compartments. rontiers in Molecular Biosciences. 6: 21. doi:10.3389/fmolb.2019.00021.",
+                "pmid": "31001538"
+            },
+            {
+                "quote": "Aumiller, William M.; Pir Cakmak, Fatma; Davis, Bradley W.; Keating, Christine D. (2016-10-04). RNA-Based Coacervates as a Model for Membraneless Organelles: Formation, Properties, and Interfacial Liposome Assembly. Langmuir. 32 (39): 10042–10053. doi:10.1021/acs.langmuir.6b02499.",
+                "pmid": "27599198"
+            }
+        ],
+        "goId": "GO:0043232"
+    },
+    "Cytoplasmic granule": {
+        "description": "Cytoplasmic granules are a common feature of both activated cytotoxic T lymphocytes (CTLs) and natural killer (NK) cells [1]. Cytoplasmic granules represent subcellular compartments that are enriched in protein-bound RNA species. Cytoplasmic granules are produced by evolutionary divergent eukaryotes, including yeast, mammals, and plants. The functions of cytoplasmic granules differ widely. They are dictated by the cell type and physiological state, which in turn is determined by intrinsic cell properties and environmental factors [2]. Cytoplasmic granule distribution is often dynamic and relies on interactions with the cytoskeleton. Different filament systems engage with Cytoplasmic granules [3].",
+        "references": [
+            {
+                "quote": "Jürg Tschopp. (1998) Perforin. Encyclopedia of Immunology (Second Edition). page: 1929-1931. doi: https://doi.org/10.1006/rwei.1999.0485.",
+                "pmid": ""
+            },
+            {
+                "quote": "Moujaber O, Stochaj U. (2018) Cytoplasmic RNA Granules in Somatic Maintenance. Gerontology. 64(5):485-494. doi: 10.1159/000488759.",
+                "pmid": "29847814"
+            },
+            {
+                "quote": "Rajgor D, Shanahan CM (August 2014). RNA granules and cytoskeletal links. Biochem Soc Trans. 42(4):1206-10. doi: 10.1042/BST20140067.",
+                "pmid": "25110026"
+            }
+        ],
+        "goId": "GO:0036464"
+    },
+    "RNP granule": {
+        "description": "Ribonucleoprotein (RNP) granules are RNA–protein assemblies that are involved in multiple aspects of RNA metabolism and are linked to memory, development, and disease. RNP granules are large non-membrane-bound assemblies of RNA and protein and are present in the nucleus and the cytosol. Examples of RNP granules include the nucleolus (the site of rRNA biogenesis), stress granules (SGs; which form from untranslating RNAs [1]), and neuronal granules (that are important for the transport and translation of synaptic mRNAs and synaptic plasticity [2]). RNP granules are involved in virtually every stage of RNA metabolism. Some RNP granules form, in part, through the formation of intermolecular RNA–RNA interactions [3]. ",
+        "references": [
+            {
+                "quote": "Buchan JR, Parker R (2009). Eukaryotic stress granules: the ins and outs of translation. Mol Cell. 36(6):932-41. doi: 10.1016/j.molcel.2009.11.020.",
+                "pmid": "20064460"
+            },
+            {
+                "quote": "Bakthavachalu B, Huelsmeier J, Sudhakaran IP, Hillebrand J, Singh A, Petrauskas A, Thiagarajan D, Sankaranarayanan M, Mizoue L, Anderson EN, Pandey UB, Ross E, VijayRaghavan K, Parker R, Ramaswami M (May 2018). RNP-Granule Assembly via Ataxin-2 Disordered Domains Is Required for Long-Term Memory and Neurodegeneration. Neuron. 98(4):754-766.e4. doi: 10.1016/j.neuron.2018.04.032.",
+                "pmid": "29772202"
+            },
+            {
+                "quote": "Tauber D, Tauber G, Parker R (September 2020). Mechanisms and Regulation of RNA Condensation in RNP Granule Formation. Trends Biochem Sci. 45(9):764-778. doi: 10.1016/j.tibs.2020.05.002.",
+                "pmid": "32475683"
+            }
+        ],
+        "goId": "GO:0035770"
+    },
+    "GW body": {
+        "description": "GW bodies (GWBs, or processing bodies) are cytoplasmic foci that were first identified through the use of an autoimmune serum that targeted the marker protein, GW182.[1] GWBs were initially considered to function as both storage loci for a specific subset of messenger ribonucleic acids (mRNAs) and degradation sites for mRNAs. GWBs are virtually identical to and/or share common functional features of processing (P) bodies in yeast and mammals, mRNA decay bodies, and chromatoid bodies found in the testes.[2] Studies showing that disruption of GWBs impaired mRNA silencing activity have linked these cytoplasmic structures to the small interfering ribonucleic acid (siRNA) and micro-ribonucleic acid (miRNA) pathways.",
+        "references": [
+            {
+                "quote": "Moser JJ, Fritzler MJ (2013). Relationship of other cytoplasmic ribonucleoprotein bodies (cRNPB) to GW/P bodies. Adv Exp Med Biol. 768:213-42. doi: 10.1007/978-1-4614-5107-5_13.",
+                "pmid": "23224973"
+            },
+            {
+                "quote": "Fritzler MJ, Chan EK (2013). The discovery of GW bodies. Adv Exp Med Biol. 768:5-21. doi: 10.1007/978-1-4614-5107-5_2.",
+                "pmid": "23224962"
+            }
+        ]
+    },
+    "Heterochromatin": {
+        "description": "Heterochromatin is a tightly packed form of DNA or condensed DNA, which comes in multiple varieties. These varieties lie on a continuum between the two extremes of constitutive heterochromatin and facultative heterochromatin. Both play a role in the expression of genes. Because it is tightly packed, it was thought to be inaccessible to polymerases and therefore not transcribed, however according to Volpe et al. (2002),[1] and many other papers since, much of this DNA is in fact transcribed, but it is continuously turned over via RNA-induced transcriptional silencing (RITS). Recent studies with electron microscopy and OsO4 staining reveal that the dense packing is not due to the chromatin.[2]\n\nConstitutive heterochromatin can affect the genes near itself (e.g. position-effect variegation). It is usually repetitive and forms structural functions such as centromeres or telomeres, in addition to acting as an attractor for other gene-expression or repression signals.\n\nFacultative heterochromatin is the result of genes that are silenced through a mechanism such as histone deacetylation or Piwi-interacting RNA (piRNA) through RNAi. It is not repetitive and shares the compact structure of constitutive heterochromatin. However, under specific developmental or environmental signaling cues, it can lose its condensed structure and become transcriptionally active.[3]\n\nHeterochromatin has been associated with the di- and tri -methylation of H3K9 in certain portions of the genome.[4] H3K9me3-related methyltransferases appear to have a pivotal role in modifying heterochromatin during lineage commitment at the onset of organogenesis and in maintaining lineage fidelity.[5]",
+        "references": [
+            {
+                "quote": "Volpe TA, Kidner C, Hall IM, Teng G, Grewal SI, Martienssen RA (September 2002). Regulation of heterochromatic silencing and histone H3 lysine-9 methylation by RNAi. Science. 297 (5588): 1833–7. doi:10.1126/science.1074973.",
+                "pmid": "12193640"
+            },
+            {
+                "quote": "Ou HD, Phan S, Deerinck TJ, Thor A, Ellisman MH, O'Shea CC (July 2017). ChromEMT: Visualizing 3D chromatin structure and compaction in interphase and mitotic cells. Science. 357 (6349): eaag0025. doi:10.1126/science.aag0025.",
+                "pmid": "28751582"
+            },
+            {
+                "quote": "Oberdoerffer P, Sinclair DA (September 2007). The role of nuclear architecture in genomic instability and ageing. Nature Reviews. Molecular Cell Biology. 8 (9): 692–702. doi:10.1038/nrm2238.",
+                "pmid": "17700626"
+            },
+            {
+                "quote": "Rosenfeld JA, Wang Z, Schones DE, Zhao K, DeSalle R, Zhang MQ (March 2009). Determination of enriched histone modifications in non-genic portions of the human genome. BMC Genomics. 10 (1): 143. doi:10.1186/1471-2164-10-143.",
+                "pmid": "2667539"
+            },
+            {
+                "quote": "Nicetto D, Donahue G, Jain T, Peng T, Sidoli S, Sheng L, et al. (January 2019). H3K9me3-heterochromatin loss at protein-coding genes enables developmental lineage specification. Science. 363 (6424): 294–297. doi:10.1126/science.aau0583.",
+                "pmid": "30606806"
+            }
+        ]
+    },
+    "miRISC": {
+        "description": "miRISC is a microribonucleoprotein complex that are composed of AGO proteins, glycine-tryptophan protein of 182 kDa (GW182) and some other proteins,[1] which is essential to execute the miRNA function.[2][3] AGO2 is likely the only obligatory component of miRISC, while multiple RBPs are shown to be associated with this core miRISC to form diverse miRISC complexes. The formation of these heterogeneous miRISC complexes is intricately regulated by various extracellular signals and cell-specific contexts.[4] The whole logic of a complex multistep process to induce translation repression could be to facilitate the reversibility of this process. This makes miRNA mediated regulation a powerful tool for the spatiotemporal regulation of gene expression. The kinetics and reversibility of miRISC depend to a large extent on its composition. The core miRISC facilitates the default miRISC pathway which includes, translation repression followed by deadenylation, decapping, and degradation of mRNA. [5][6] Additional factors generally regulate the kinetics of this pathway which could also result in stalling of the process at any of the stages of the default pathway. More importantly, these factors could provide reversibility to the miRISC mediated translation repression and make it a more dynamic process to regulate gene expression.",
+        "references": [
+            {
+                "quote": "Akgül B, Erdo?an ? (September 2018). Intracytoplasmic Re-localization of miRISC Complexes. Front Genet. 9:403. doi: 10.3389/fgene.2018.00403.",
+                "pmid": "30298086"
+            },
+            {
+                "quote": "Krol J, Loedige I, Filipowicz W (September 2010). The widespread regulation of microRNA biogenesis, function and decay. Nat Rev Genet. 11(9):597-610. doi: 10.1038/nrg2843.",
+                "pmid": "20661255"
+            },
+            {
+                "quote": "Fabian MR, Sonenberg N (June 2012). The mechanics of miRNA-mediated gene silencing: a look under the hood of miRISC. Nat Struct Mol Biol. 19(6):586-93. doi: 10.1038/nsmb.2296.",
+                "pmid": "22664986"
+            },
+            {
+                "quote": "Nawalpuri B, Ravindran S, Muddashetty RS (January 2020). The Role of Dynamic miRISC During Neuronal Development. Front Mol Biosci. 7:8. doi: 10.3389/fmolb.2020.00008.",
+                "pmid": "32118035"
+            },
+            {
+                "quote": "Huntzinger E, Izaurralde E (February 2011). Gene silencing by microRNAs: contributions of translational repression and mRNA decay. Nat Rev Genet. 12(2):99-110. doi: 10.1038/nrg2936.",
+                "pmid": "21245828"
+            },
+            {
+                "quote": "Fabian MR, Sonenberg N (June 2012). The mechanics of miRNA-mediated gene silencing: a look under the hood of miRISC. Nat Struct Mol Biol. 19(6):586-93. doi: 10.1038/nsmb.2296.",
+                "pmid": "22664986"
+            }
+        ]
+    },
+    "Nuclear body": {
+        "description": "Nuclear bodies (also known as nuclear domains, or nuclear dots) are membraneless structures found in the cell nuclei of eukaryotic cells [1]. Nuclear bodies include Cajal bodies, the nucleolus, and promyelocytic leukemia protein (PML) nuclear bodies (also called PML oncogenic dots) [2]. Nuclear bodies also include ND10s. ND stands for nuclear domain, and 10 refers to the number of dots seen [3].\nNuclear bodies were first seen as prominent interchromatin structures in the nuclei of malignant or hyperstimulated animal cells [4][5] identified using anti-sp100 autoantibodies from primary biliary cirrhosis and subsequently the promyelocytic leukemia (PML) factor, but appear also to be elevated in many autoimmune and cancerous diseases [6]. Nuclear dots are metabolically stable and resistant to nuclease digestion and salt extraction [7].\nA nuclear body subtype is a clastosome suggested to be a site of protein degradation [8].",
+        "references": [
+            {
+                "quote": "Weber SC (June 2017). Sequence-encoded material properties dictate the structure and function of nuclear bodies. Current Opinion in Cell Biology. 46: 62–71. doi:10.1016/j.ceb.2017.03.003.",
+                "pmid": "28343140"
+            },
+            {
+                "quote": "Zimber A, Nguyen QD, Gespach C (October 2004). Nuclear bodies and compartments: functional roles and cellular signalling in health and disease. Cellular Signalling. 16 (10): 1085–104. doi:10.1016/j.cellsig.2004.03.020.",
+                "pmid": "15240004"
+            },
+            {
+                "quote": "Rivera-Molina YA, Martínez FP, Tang Q (August 2013). Nuclear domain 10 of the viral aspect. World Journal of Virology. 2 (3): 110–22. doi:10.5501/wjv.v2.i3.110.",
+                "pmid": "24255882"
+            },
+            {
+                "quote": "Brasch K, Ochs RL (October 1992). Nuclear bodies (NBs): a newly rediscovered organelle. Experimental Cell Research. 202 (2): 211–23. doi:10.1016/0014-4827(92)90068-J.",
+                "pmid": "1397076"
+            },
+            {
+                "quote": "Sternsdorf T, Grötzinger T, Jensen K, Will H (December 1997). Nuclear dots: actors on many stages. Immunobiology. 198 (1–3): 307–31. doi:10.1016/s0171-2985(97)80051-4.",
+                "pmid": "9442402"
+            },
+            {
+                "quote": "Pawlotsky JM, Andre C, Metreau JM, Beaugrand M, Zafrani ES, Dhumeaux D (July 1992). Multiple nuclear dots antinuclear antibodies are not specific for primary biliary cirrhosis. Hepatology. 16 (1): 127–31. doi:10.1002/hep.1840160121.",
+                "pmid": "1319948"
+            },
+            {
+                "quote": "Ascoli CA, Maul GG (March 1991). Identification of a novel nuclear domain. The Journal of Cell Biology. 112 (5): 785–95. doi:10.1083/jcb.112.5.785.",
+                "pmid": "1999457"
+            },
+            {
+                "quote": "Lafarga M, Berciano MT, Pena E, Mayo I, Castaño JG, Bohmann D, et al. (August 2002). Clastosome: a subtype of nuclear body enriched in 19S and 20S proteasomes, ubiquitin, and protein substrates of proteasome. Molecular Biology of the Cell. 13 (8): 2771–82. doi:10.1091/mbc.e02-03-0122.",
+                "pmid": "12181345"
+            }
+        ],
+        "goId": "GO:0016604"
+    },
+    "Nuclear compartment": {
+        "description": "Nuclear compartments can be divided into two categories,  chromatin and the nuclear bodies that are found in the inter‐chromatin space.[1] The double nuclear membrane is studded with nuclear pores, which regulate access between the nucleus and the cytoplasm. Major structures involved in chromatin function include chromosome territories, nucleoli, splicing speckles, various types of nuclear bodies, and the nuclear matrix, which is intimately associated with these other structures and also with many nuclear RNA–protein complexes and the active sites of DNA and RNA synthesis. Courtesy of David Spector and Jim Duffy and reproduced from [2] with permission of the Company of Biologists.",
+        "references": [
+            {
+                "quote": "Newall A.E.T., Wang J., Sheer D. (2005) Nuclear Compartments. In: Encyclopedic Reference of Genomics and Proteomics in Molecular Medicine. Springer, Berlin, Heidelberg . https://doi.org/10.1007/3-540-29623-9_2280.",
+                "pmid": ""
+            },
+            {
+                "quote": "Grimes BR, Warburton PE, Farr CJ (June 2002). Chromosome engineering: prospects for gene therapy. Gene Ther. 9(11):713-8. doi: 10.1038/sj.gt.3301763.",
+                "pmid": "12032694"
+            }
+        ]
+    },
+    "SMN granule": {
+        "description": "Spinal Muscular Atrophy (SMA) is a neurodegenerative disease that is caused by deletion of the SMN (Survival of Motor Neuron) gene. The SMN protein is essential for cell survival and co-localized with TIA-1/R and G3BP, two characteristic markers of stress granules (SGs).[1] Formation of SMN granules precedes accumulation of TIA-1/R, indicating that SMN serves as a facilitator of SG formation.[2] SMN granules colocalize with the Golgi apparatus in motor neuron-like NSC34 cells. Electron microscopy clearly revealed that SMN granules are transported into the Golgi stack and aggregate in the trans-Golgi apparatus. SMN granules are characterized as either coated or un-coated and behave like regulated secretory granules.[3]",
+        "references": [
+            {
+                "quote": " Zou T, Yang X, Pan D, Huang J, Sahin M, Zhou J (May 2011). SMN deficiency reduces cellular ability to form stress granules, sensitizing cells to stress. Cell Mol Neurobiol. 31(4):541-50. doi: 10.1007/s10571-011-9647-8.",
+                "pmid": "21234798"
+            },
+            {
+                "quote": "Hua Y, Zhou J (August 2004). Survival motor neuron protein facilitates assembly of stress granules. FEBS Lett. 572(1-3):69-74. doi: 10.1016/j.febslet.2004.07.010.",
+                "pmid": "15304326"
+            },
+            {
+                "quote": "Ting CH, Wen HL, Liu HC, Hsieh-Li HM, Li H, Lin-Chao S (2012). The spinal muscular atrophy disease protein SMN is linked to the Golgi network. PLoS One. 7(12):e51826. doi: 10.1371/journal.pone.0051826.",
+                "pmid": "23284781"
+            }
+        ]
+    },
+    "TIS granule": {
+        "description": "TIS granules are membraneless organelles intertwined with the endoplasmic reticulum. TIS granules form a reticular meshwork intertwined with the endoplasmic reticulum (ER). The association between TIS granules and the ER creates a subcellular compartment—the TIGER domain—with a biophysically and biochemically distinct environment from the cytoplasm. This compartment promotes 3′UTR-mediated interaction of SET with membrane proteins, thus allowing increased surface expression and functional diversity of proteins, including CD47 and PD-L1. The TIGER domain is a subcellular compartment that enables formation of specific and functionally relevant protein-protein interactions that cannot be established outside [1].",
+        "references": [
+            {
+                "quote": "Ma W, Mayr C (November 2018). A Membraneless Organelle Associated with the Endoplasmic Reticulum Enables 3'UTR-Mediated Protein-Protein Interactions. Cell. 175(6):1492-1506.e19. doi: 10.1016/j.cell.2018.10.007.",
+                "pmid": "30449617"
+            }
+        ],
+        "goId": "GO:0140363"
+    },
+    "Transcription factory": {
+        "description": "Transcription factories, in genetics describe the discrete sites where transcription occurs in the cell nucleus, and are an example of a biomolecular condensate. They were first discovered in 1993 and have been found to have structures analogous to replication factories, sites where replication also occurs in discrete sites. The factories contain an RNA polymerase (active or inactive) and the necessary transcription factors (activators and repressors) for transcription.[1] Transcription factories containing RNA polymerase II are the most studied but factories can exist for RNA polymerase I and III; the nucleolus being seen as the prototype for transcription factories. It is possible to view them under both light and electron microscopy.[2] The discovery of transcription factories has challenged the original view of how RNA polymerase interacts with the DNA polymer and it is thought that the presence of factories has important effects on gene regulation and nuclear structure.",
+        "references": [
+            {
+                "quote": "Iborra F (1996). Active RNA polymerases are localised within discrete transcription factories in human nuclei. J Cell Sci. 109: 1427–1436.",
+                "pmid": "8799830"
+            },
+            {
+                "quote": "Schermelleh L (2010). A guide to super-resolution fluorescence microscopy. J. Cell Biol. 190 (2): 165–175. doi:10.1083/jcb.201002018.",
+                "pmid": "20643879"
+            }
+        ]
+    },
+    "U2AF65 assembly": {
+        "description": "The essential splicing factor U2AF65 is known to help anchoring U2 snRNP at the branch site. Its C-terminal UHM domain interacts with ULM motifs of SF3b155, an U2 snRNP protein. U2AF65 assemblies are liquid-like assemblies of U2AF65 and CAPERα on repetitive pyrimidine-rich RNA sequences are driven by their RS domains, and facilitate the recruitment of the multi-ULM domain of SF3b155.Posttranslational modifications and proteins recruited in dynamical U2AF65 and CAPERα condensates may further contribute to the complex mechanisms leading to specific splice site choice that occurs in cells [1].",
+        "references": [
+            {
+                "quote": "Tari M, Manceau V, de Matha Salone J, Kobayashi A, Pastré D, Maucuer A (August 2019). U2AF65 assemblies drive sequence-specific splice site recognition. EMBO Rep. 20(8):e47604. doi: 10.15252/embr.201847604.",
+                "pmid": "31271494"
+            }
+        ]
+    },
+    "Yb body": {
+        "description": "Yb bodies are liquid-like multivalent condensates whose assembly depends on Yb–Yb homotypic interaction and Yb binding particularly with flamenco RNA transcripts, the source of transposon-repressing piRNAs.[1] Yb body formation requires all domains of Yb, namely, Hel-C, RNA helicase, and eTud domains. Loss of these factors abrogates piRNA biogenesis; thus, Yb bodies are considered to be the site of piRNA production. Other processing factors, Zucchini (Zuc), Gasz, and Minotaur (Mino), are not localized to Yb bodies but are anchored on the surface of mitochondria through their own transmembrane signals.[2][3][4] Yb bodies tend to be surrounded by mitochondria and adjacent to Flam bodies.[5][6] This spatial arrangement of the organelles locally concentrates piRNA-processing factors and precursor RNAs, facilitating piRNA biogenesis and Piwi-piRISC formation.",
+        "references": [
+            {
+                "quote": " Hirakata S, Ishizu H, Fujita A, Tomoe Y, Siomi MC (July 2019). Requirements for multivalent Yb body assembly in transposon silencing in Drosophila. EMBO Rep. 20(7):e47708. doi: 10.15252/embr.201947708.",
+                "pmid": "31267711"
+            },
+            {
+                "quote": "Saito K, Ishizu H, Komai M, Kotani H, Kawamura Y, Nishida KM, Siomi H, Siomi MC (November 2010). Roles for the Yb body components Armitage and Yb in primary piRNA biogenesis in Drosophila. Genes Dev. 24(22):2493-8. doi: 10.1101/gad.1989510.",
+                "pmid": "20966047"
+            },
+            {
+                "quote": "Handler D, Olivieri D, Novatchkova M, Gruber FS, Meixner K, Mechtler K, Stark A, Sachidanandam R, Brennecke J (August 2011). A systematic analysis of Drosophila TUDOR domain-containing proteins identifies Vreteno and the Tdrd12 family as essential primary piRNA pathway factors. EMBO J. 30(19):3977-93. doi: 10.1038/emboj.2011.308.",
+                "pmid": "21863019"
+            },
+            {
+                "quote": "Olivieri D, Senti KA, Subramanian S, Sachidanandam R, Brennecke J (September 2012). The cochaperone shutdown defines a group of biogenesis factors essential for all piRNA populations in Drosophila. Mol Cell. 47(6):954-69. doi: 10.1016/j.molcel.2012.07.021.",
+                "pmid": "22902557"
+            },
+            {
+                "quote": "Handler D, Meixner K, Pizka M, Lauss K, Schmied C, Gruber FS, Brennecke J (June 2013). The genetic makeup of the Drosophila piRNA pathway. Mol Cell. 50(5):762-77. doi: 10.1016/j.molcel.2013.04.031.",
+                "pmid": "23665231"
+            },
+            {
+                "quote": " Vagin VV, Yu Y, Jankowska A, Luo Y, Wasik KA, Malone CD, Harrison E, Rosebrock A, Wakimoto BT, Fagegaltier D, Muerdter F, Hannon GJ (August 2013). Minotaur is critical for primary piRNA biogenesis. RNA. 19(8):1064-77. doi: 10.1261/rna.039669.113.",
+                "pmid": "23788724"
+            }
+        ]
+    },
+    "RNA granule": {
+        "description": "RNA granules contain various ribosomal subunits, translation factors, decay enzymes, helicases, scaffold proteins, and RNA-binding proteins, and they control the localization, stability, and translation of their RNA cargo.[1] In lower metazoans, RNA granules have important roles in gametogenesis and embryonic development. In Caenorhabditis elegans, several distinct classes of RNA granules have been implicated in the regulation of maternal mRNA expression in germ cells.[2][3] RNA granules can produce heritable changes in gene expression that are independent of changes in DNA sequence or chromatin remodelling. This is thought to result from the cytoplasmic delivery of granule-associated RNAs (for example, maternal mRNAs, piRNAs and miRNAs) that regulate gene expression during embryogenesis.",
+        "references": [
+            {
+                "quote": "Anderson P, Kedersha N. RNA granules (May 2006). J Cell Biol. 172(6):803-8. doi: 10.1083/jcb.200512082.",
+                "pmid": "16520386"
+            },
+            {
+                "quote": "Gallo CM, Munro E, Rasoloson D, Merritt C, Seydoux G (November 2008). Processing bodies and germ granules are distinct RNA granules that interact in C. elegans embryos. Dev Biol. 323(1):76-87. doi: 10.1016/j.ydbio.2008.07.008.",
+                "pmid": "18692039"
+            },
+            {
+                "quote": "Jud MC, Czerwinski MJ, Wood MP, Young RA, Gallo CM, Bickel JS, Petty EL, Mason JM, Little BA, Padilla PA, Schisa JA (June 2008). Large P body-like RNPs form in C. elegans oocytes in response to arrested ovulation, heat shock, osmotic stress, and anoxia and are regulated by the major sperm protein pathway. Dev Biol. 318(1):38-51. doi: 10.1016/j.ydbio.2008.02.059.",
+                "pmid": "18439994"
+            }
+        ]
+    },
+    "G body": {
+        "description": "Hypoxia in Saccharomyces cerevisiae induces concentration of glycolytic enzymes, including the Pfk2p subunit of the rate-limiting phosphofructokinase, into a single, non-membrane-bound granule termed the “glycolytic body” or “G body.” A yeast kinome screen identifies the yeast ortholog of AMP-activated protein kinase, Snf1p, as necessary for G-body formation. Many G-body components identified by proteomics are required for G-body integrity. Cells incapable of forming G bodies in hypoxia display abnormal cell division and produce inviable daughter cells. Conversely, cells with G bodies show increased glucose consumption and decreased levels of glycolytic intermediates. Importantly, G bodies form in human hepatocarcinoma cells in hypoxia [1].",
+        "references": [
+            {
+                "quote": " Jin M, Fuller GG, Han T, Yao Y, Alessi AF, Freeberg MA, Roach NP, Moresco JJ, Karnovsky A, Baba M, Yates JR 3rd, Gitler AD, Inoki K, Klionsky DJ, Kim JK (July 2017). Glycolytic Enzymes Coalesce in G Bodies under Hypoxic Stress. Cell Rep. 20(4):895-908. doi: 10.1016/j.celrep.2017.06.082.",
+                "pmid": "28746874"
+            }
+        ]
+    }
+}

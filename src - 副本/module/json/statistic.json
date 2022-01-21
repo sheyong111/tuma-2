@@ -1,0 +1,722 @@
+{
+    "source": {
+        "reviewed": {
+            "llpsNumber": "666",
+            "rnaNumber": "777"
+        },
+        "highThroughput": {
+            "llpsNumber": "777",
+            "rnaNumber": "888"
+        },
+        "predicted": {
+            "llpsNumber": "999",
+            "rnaNumber": "722"
+        }
+    },
+    "organism": {
+        "Homo sapiens": {
+            "llpsNumber": {
+                "reviewed": "111",
+                "highThroughput": "222",
+                "predicted": "333",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "111",
+                "highThroughput": "222",
+                "predicted": "333",
+                "total": "666"
+            }
+        },
+        "Arabidopsis thaliana": {
+            "llpsNumber": {
+                "reviewed": "212",
+                "highThroughput": "4354",
+                "predicted": "2342",
+                "total": "11111"
+            },
+            "rnaNumber": {
+                "reviewed": "231",
+                "highThroughput": "123",
+                "predicted": "32333",
+                "total": "66436"
+            }
+        },
+        "Caenorhabditis elegans": {
+            "llpsNumber": {
+                "reviewed": "11231",
+                "highThroughput": "22452",
+                "predicted": "45333",
+                "total": "62266"
+            },
+            "rnaNumber": {
+                "reviewed": "1411",
+                "highThroughput": "22122",
+                "predicted": "33123",
+                "total": "664356"
+            }
+        },
+        "Drosophila melanogaster": {
+            "llpsNumber": {
+                "reviewed": "11121",
+                "highThroughput": "2232",
+                "predicted": "34533",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "11112",
+                "highThroughput": "2322",
+                "predicted": "3433",
+                "total": "666"
+            }
+        },
+        "Mus musculus": {
+            "llpsNumber": {
+                "reviewed": "11341",
+                "highThroughput": "22232",
+                "predicted": "33322",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "11123",
+                "highThroughput": "2242",
+                "predicted": "3353",
+                "total": "666"
+            }
+        },
+        "Saccharomyces cerevisiae": {
+            "llpsNumber": {
+                "reviewed": "1111",
+                "highThroughput": "22232",
+                "predicted": "33323",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "11651",
+                "highThroughput": "456222",
+                "predicted": "37833",
+                "total": "666"
+            }
+        },
+        "Xenopus laevis": {
+            "llpsNumber": {
+                "reviewed": "15611",
+                "highThroughput": "2232",
+                "predicted": "3433",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "11781",
+                "highThroughput": "22652",
+                "predicted": "333",
+                "total": "666"
+            }
+        }
+    },
+    "rnaSource": {
+        "Natural": {
+            "llpsNumber": {
+                "reviewed": "3453",
+                "highThroughput": "2344",
+                "predicted": "5454",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "6787",
+                "highThroughput": "567",
+                "predicted": "890",
+                "total": "666"
+            }
+        },
+        "Synthetic": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        }
+    },
+    "condensate": {
+        "Stress granule": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Nucleolus": {
+            "llpsNumber": {
+                "reviewed": "341235",
+                "highThroughput": "6712565",
+                "predicted": "2412324",
+                "total": "4666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Nuclear pore complex": {
+            "llpsNumber": {
+                "reviewed": "3456",
+                "highThroughput": "6753",
+                "predicted": "24324",
+                "total": "6636"
+            },
+            "rnaNumber": {
+                "reviewed": "567235",
+                "highThroughput": "45236",
+                "predicted": "23323",
+                "total": "6366"
+            }
+        },
+        "DNA damage foci": {
+            "llpsNumber": {
+                "reviewed": "32345",
+                "highThroughput": "6734565",
+                "predicted": "243214",
+                "total": "6166"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Phase separation": {
+            "llpsNumber": {
+                "reviewed": "32345",
+                "highThroughput": "67365",
+                "predicted": "24224",
+                "total": "6236"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "PML nuclear body": {
+            "llpsNumber": {
+                "reviewed": "342345",
+                "highThroughput": "627565",
+                "predicted": "2433324",
+                "total": "6665766"
+            },
+            "rnaNumber": {
+                "reviewed": "5673245",
+                "highThroughput": "54456",
+                "predicted": "233343",
+                "total": "6626"
+            }
+        },
+        "Postsynaptic density": {
+            "llpsNumber": {
+                "reviewed": "342345",
+                "highThroughput": "6247565",
+                "predicted": "2445324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "5676375",
+                "highThroughput": "4544456",
+                "predicted": "223233",
+                "total": "666"
+            }
+        },
+        "Cajal body": {
+            "llpsNumber": {
+                "reviewed": "34345",
+                "highThroughput": "64565",
+                "predicted": "24224",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "5635",
+                "highThroughput": "4536",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Nuclear speckle": {
+            "llpsNumber": {
+                "reviewed": "3445",
+                "highThroughput": "67565",
+                "predicted": "243324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "56235",
+                "highThroughput": "45456",
+                "predicted": "23323",
+                "total": "666"
+            }
+        },
+        "Gemini of cajal body": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "P-body": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Pericentriolar matrix": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Paraspeckle": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Neuronal granule": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Perinucleolar compartment": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Histone locus body": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Cleavage body": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Insulator body": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Mitochondrial RNA granule": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "DDX1 body": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Sam68 nuclear body": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "OPT domain": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Nuclear stress body": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Receptor cluster": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "P granule": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Nuage": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "U body": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Chromatoid body": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "PcG body": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Balbiani body": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Droplet": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Spot": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Liquid droplet": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Mesh-like condensates": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Mesh-like network": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Hollow vesicle-like condensate": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Gel": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Spherical clusters": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Spherical coacervate": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Fractal-like networks": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        },
+        "Coacervates": {
+            "llpsNumber": {
+                "reviewed": "345",
+                "highThroughput": "67565",
+                "predicted": "24324",
+                "total": "666"
+            },
+            "rnaNumber": {
+                "reviewed": "567675",
+                "highThroughput": "45456",
+                "predicted": "2343",
+                "total": "666"
+            }
+        }
+    }
+}

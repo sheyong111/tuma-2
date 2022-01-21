@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,QAAQ,EAAE,QAAQ;EAClB;;0BAEwB;EACxB,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,MAAM;CAKlB;;AAZD,AAQE,cARY,CAQZ,EAAE;AARJ,cAAc,CASZ,EAAE,CAAC;EACD,UAAU,EAAE,iBAAiB;CAC9B",
+    "sources": [
+        "download.scss"
+    ],
+    "names": [],
+    "file": "download.css"
+}

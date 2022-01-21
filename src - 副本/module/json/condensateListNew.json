@@ -1,0 +1,158 @@
+[
+    {
+        "type": "Cytoplasm",
+        "condensate": [
+            {
+                "name": "P-body",
+                "otherNames": [
+                    "P-body"
+                ]
+            },
+            {
+                "name": "Stress granule",
+                "otherNames": [
+                    "Stress granule"
+                ]
+            },
+            {
+                "name": "Centrosome",
+                "otherNames": [
+                    "Centrosome"
+                ]
+            },
+            {
+                "name": "Cytoplasmic granule",
+                "otherNames": [
+                    "Cytoplasmic granule",
+                    "RNA granule"
+                ]
+            },
+            {
+                "name": "G body",
+                "otherNames": [
+                    "G body"
+                ]
+            },
+            {
+                "name": "Neuronal granule",
+                "otherNames": [
+                    "Neuronal granule"
+                ]
+            },
+            {
+                "name": "TIS granule",
+                "otherNames": [
+                    "TIS granule"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Nucleus",
+        "condensate": [
+            {
+                "name": "Paraspeckle",
+                "otherNames": [
+                    "Paraspeckle"
+                ]
+            },
+            {
+                "name": "Cajal body",
+                "otherNames": [
+                    "Cajal body"
+                ]
+            },
+            {
+                "name": "DNA damage foci",
+                "otherNames": [
+                    "DNA damage foci"
+                ]
+            },
+            {
+                "name": "Histone locus body",
+                "otherNames": [
+                    "Histone locus body"
+                ]
+            },
+            {
+                "name": "Nuclear body",
+                "otherNames": [
+                    "Nuclear body",
+                    "Nuclear granule",
+                    "Microspeckle",
+                    "Nuclear compartment"
+                ]
+            },
+            {
+                "name": "Nuclear speckle",
+                "otherNames": [
+                    "Nuclear speckle"
+                ]
+            },
+            {
+                "name": "Nucleolus",
+                "otherNames": [
+                    "Nucleolus"
+                ]
+            },
+            {
+                "name": "PML nuclear body",
+                "otherNames": [
+                    "PML nuclear body"
+                ]
+            },
+            {
+                "name": "PcG body",
+                "otherNames": [
+                    "PcG body"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Others",
+        "condensate":[
+            {
+                "name": "Coacervate droplet",
+                "otherNames": [
+                    "Droplet",
+                    "Condensate",
+                    "Foci",
+                    "Gel-like TIS11B assemblies",
+                    "Hydrogel with amyloid-like property",
+                    "Hydrogel",
+                    "Liquid droplet",
+                    "Micron-sized droplet",
+                    "Gel",
+                    "Meshlike network",
+                    "Fractallike network",
+                    "Coacervate",
+                    "Spherical coacervate",
+                    "Hollow vesiclelike condensate",
+                    "Hollow vesicle-like condensate",
+                    "Spot",
+                    "Coacervate droplet"
+                ]
+            },
+            {
+                "name": "P granule",
+                "otherNames": [
+                    "Cytoplasmic ribonucleoprotein granule",
+                    "P granule"
+                ]
+            },
+            {
+                "name": "Nuage",
+                "otherNames": [
+                    "Nuage"
+                ]
+            },
+            {
+                "name": "Balbiani body",
+                "otherNames": [
+                    "Balbiani body"
+                ]
+            }
+        ]
+    }
+]

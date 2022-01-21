@@ -1,0 +1,17 @@
+{
+    "descriptionLabelStyle": {
+        "fontSize": "18px",
+        "fontWeight": "bold",
+        "whiteSpace": "nowrap",
+        "verticalAlign": "top",
+        "width": "100px",
+        "paddingTop": "10px",
+        "paddingBottom": "10px"
+    },
+    "descriptionContentStyle": {
+        "fontSize": "16px",
+        "backgroundColor": "#fff",
+        "paddingTop": "10px",
+        "paddingBottom": "10px"
+    }
+}

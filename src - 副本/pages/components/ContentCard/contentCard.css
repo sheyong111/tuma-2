@@ -1,0 +1,64 @@
+@-webkit-keyframes card-show {
+  0% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes card-show {
+  0% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.contentcard-title-wrap {
+  /* color: #fff; */
+  padding: 10px 0px 10px 20px;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.contentcard-title-wrap .contentcard-title-text {
+  margin-left: 5px;
+}
+
+.card-wrap {
+  -webkit-animation: 0.8s card-show;
+          animation: 0.8s card-show;
+}
+
+.card-wrap-shadow {
+  -webkit-box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-wrap-border {
+  border-radius: 4px;
+}
+
+.card-nopadding .ant-card-head-title {
+  padding-bottom: 0px;
+}
+
+.card-nopadding .ant-card-body {
+  padding-top: 0px;
+  padding-left: 0px;
+}
+/*# sourceMappingURL=contentCard.css.map */

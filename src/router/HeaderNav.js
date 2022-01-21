@@ -13,43 +13,51 @@ import Browser from "../pages/Browser/Browser";
 import Download from "../pages/Download/Download";
 import Contact from "../pages/Contact/Contact";
 
-export const menuItemList = [
+export const menuItemLists = [
   {
-    path: "/home",
+    path: "#/Home",
     component: Home,
     title: "Home",
   },
   {
-    path: "/browser",
+    path: "#/Browser",
     component: Browser,
     title: "Browser",
   },
   {
-    path: "/search",
+    path: "#/Search",
     component: Search,
     title: "Search",
   },
   {
-    path: "/download",
+    path: "#/Download",
     component: Download,
     title: "Download",
   },
   {
-    path: "/help",
+    path: "#/Help",
     component: Help,
     title: "Help",
   },
   {
-    path: "/contact",
+    path: "#/Contact",
     component: Contact,
     title: "Contact",
   },
 ];
 
 function HeaderNav(props) {
-  const hashPath = window.location.pathname;
+  const hashPath = window.location.href;
 
-  const [currentPath] = useState(hashPath);
+  const [currentPath, updatePath] = useState(hashPath);
+
+  console.log(window.location.href);
+  console.log(window.location.pathname);
+  console.log(window.location.pathname);
+  console.log(window.location.pathname);
+  console.log(window.location.pathname);
+  console.log(window.location.pathname);
+  console.log(window.location.pathname);
   console.log(window.location.pathname);
 
   //点击菜单的回调
@@ -62,29 +70,18 @@ function HeaderNav(props) {
       <div style={{ height: "64px" }} />
       <div className={"headernav-wrap " + "tuma-theme-bgcolor"}>
         <div className="headernav-logo">TUMA</div>
-        {menuItemList.map((item, index) => {
+        {menuItemLists.map((item, index) => {
           return (
             <div
-              className={
-                "headernav-item-wrap" +
-                " tuma-theme-bgcolor" +
-                (currentPath.indexOf(item.path.split("/")[1]) > -1
-                  ? "activated tuma-theme-bdcolor-sc tuma-theme-color-sc"
-                  : "")
-              }
+              className={"headernav-item-wrap" + " tuma-theme-bgcolor" + (currentPath.indexOf(item.path.split("#")[1]) > -1 ? "activated tuma-theme-bdcolor-sc tuma-theme-color-sc" : "")}
               onClick={() => onClickMenuNew(item.path)}
-              key={index}
-            >
+              key={index}>
               {/* item.icon */}
               <span>{item.title}</span>
             </div>
           );
         })}
-        <div
-          className={"headernav-item-wrap" + " tuma-theme-bgcolor"}
-          onClick={() => window.open("https://renlab.org/")}
-          key={999}
-        >
+        <div className={"headernav-item-wrap" + " tuma-theme-bgcolor"} onClick={() => window.open("https://renlab.org/")} key={999}>
           <span>{"Renlab"}</span>
         </div>
       </div>

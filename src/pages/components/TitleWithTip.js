@@ -13,8 +13,7 @@ export default function TitleWithTip(props) {
         whiteSpace: "nowrap",
         fontWeight: "bold",
         display: "inline-block",
-      }}
-    >
+      }}>
       {title}
       {tooltip ? (
         <Tooltip title={tooltip} color={color || "#3f3f3f"}>

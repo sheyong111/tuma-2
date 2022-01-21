@@ -1,0 +1,13 @@
+[
+    "protein_coding",
+    "lncRNA",
+    "pseudogene",
+    "miRNA",
+    "snRNA",
+    "snoRNA",
+    "rRNA",
+    "tRNA",
+    "virus ssRNA",
+    "synthetic nucleotides",
+    "others"
+]

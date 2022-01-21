@@ -1,0 +1,24 @@
+.search-wrap {
+  position: relative;
+  padding: 50px;
+  width: 95vw;
+  max-width: 1700px;
+  /* margin-top: 64px; */
+  .llps-search-btn-wrap {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .llps-result-table-wrap {
+    /* overflow-x: scroll; */
+    td,
+    th {
+      text-align: center;
+      /* white-space: nowrap; */
+    }
+    .rps-table-row {
+      .ant-table-cell {
+        padding: 10px;
+      }
+    }
+  }
+}

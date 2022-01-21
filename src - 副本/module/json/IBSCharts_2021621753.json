@@ -1,0 +1,1126 @@
+{
+    "mode": "protein",
+    "config": {
+        "canvasWidth": 1000,
+        "canvasHeight": 700,
+        "viewBox": "0 -100 1000 700",
+        "scaleLength": 507,
+        "zoomRatio": 1
+    },
+    "data": [
+        {
+            "type": "protein",
+            "length": 507,
+            "option": {
+                "id": "P2",
+                "position": {
+                    "start": {
+                        "site": 1,
+                        "display": "hide"
+                    },
+                    "end": {
+                        "site": 508,
+                        "display": "hide"
+                    }
+                },
+                "coordinate": {
+                    "horizontal": {
+                        "start": 100,
+                        "end": 900,
+                        "isLocked": false
+                    },
+                    "vertical": {
+                        "start": 296,
+                        "isLocked": false
+                    }
+                },
+                "style": {
+                    "align": "custom",
+                    "height": 25,
+                    "fontSize": 12,
+                    "color": "#CCCCCC",
+                    "gradient": "centerToTopAndBottom",
+                    "texture": {
+                        "type": "none",
+                        "color": "#333333"
+                    }
+                },
+                "borderStyle": {
+                    "color": "#000000",
+                    "size": 1,
+                    "isDash": false
+                }
+            },
+            "children": [
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D1",
+                        "position": {
+                            "start": {
+                                "site": 1,
+                                "display": "top"
+                            },
+                            "end": {
+                                "site": 74,
+                                "display": "top"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "LSm",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 18,
+                            "color": "#333333",
+                            "rotate": 0,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#FF9966",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D2",
+                        "position": {
+                            "start": {
+                                "site": 192,
+                                "display": "top"
+                            },
+                            "end": {
+                                "site": 228,
+                                "display": "top"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "PDF",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 18,
+                            "color": "#333333",
+                            "rotate": 0,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#996600",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom",
+                            "rotate": null
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D3",
+                        "position": {
+                            "start": {
+                                "site": 250,
+                                "display": "top"
+                            },
+                            "end": {
+                                "site": 508,
+                                "display": "top"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "YjeF_N",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 18,
+                            "color": "#333333",
+                            "rotate": 0,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#669900",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom",
+                            "rotate": null
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "protein",
+            "length": 471,
+            "option": {
+                "id": "P1",
+                "position": {
+                    "start": {
+                        "site": 1,
+                        "display": "top"
+                    },
+                    "end": {
+                        "site": 472,
+                        "display": "bottom"
+                    }
+                },
+                "coordinate": {
+                    "horizontal": {
+                        "start": 100,
+                        "end": 843,
+                        "isLocked": false
+                    },
+                    "vertical": {
+                        "start": 120,
+                        "isLocked": false
+                    }
+                },
+                "style": {
+                    "align": "custom",
+                    "height": 25,
+                    "fontSize": 12,
+                    "color": "#FFFF99",
+                    "gradient": "centerToTopAndBottom",
+                    "texture": {
+                        "type": "none",
+                        "color": "#333333"
+                    }
+                },
+                "borderStyle": {
+                    "color": "#000000",
+                    "size": 1,
+                    "isDash": false
+                }
+            },
+            "children": [
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D1",
+                        "position": {
+                            "start": {
+                                "site": 1,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 85,
+                                "display": "top"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "N-ext",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 0,
+                            "location": "center",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#FFCCCC",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D2",
+                        "position": {
+                            "start": {
+                                "site": 463,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 472,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 0,
+                            "location": "center",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#FFCCCC",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D5",
+                        "position": {
+                            "start": {
+                                "site": 415,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 425,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 0,
+                            "location": "center",
+                            "fontWeight": "normal",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#6666FF",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D4",
+                        "position": {
+                            "start": {
+                                "site": 435,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 463,
+                                "display": "top"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 0,
+                            "location": "center",
+                            "fontWeight": "normal",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#6666FF",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D3",
+                        "position": {
+                            "start": {
+                                "site": 425,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 435,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "Ⅵ",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 45,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#6600FF",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D7",
+                        "position": {
+                            "start": {
+                                "site": 386,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 401,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 0,
+                            "location": "center",
+                            "fontWeight": "normal",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#6666FF",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D6",
+                        "position": {
+                            "start": {
+                                "site": 401,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 415,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "Ⅴ",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 45,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#6600FF",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D9",
+                        "position": {
+                            "start": {
+                                "site": 361,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 376,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 0,
+                            "location": "center",
+                            "fontWeight": "normal",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#6666FF",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D8",
+                        "position": {
+                            "start": {
+                                "site": 376,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 386,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "QxxR",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 45,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#6600FF",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D11",
+                        "position": {
+                            "start": {
+                                "site": 296,
+                                "display": "top"
+                            },
+                            "end": {
+                                "site": 351,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 0,
+                            "location": "center",
+                            "fontWeight": "normal",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#6666FF",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D10",
+                        "position": {
+                            "start": {
+                                "site": 351,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 361,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "Ⅳ",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 45,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#6600FF",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D12",
+                        "position": {
+                            "start": {
+                                "site": 110,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 117,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "Q",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 45,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#009900",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D13",
+                        "position": {
+                            "start": {
+                                "site": 127,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 132,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "I",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 45,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#009900",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#0A0A0A",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D14",
+                        "position": {
+                            "start": {
+                                "site": 152,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 157,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "Ia",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 45,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#009900",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D15",
+                        "position": {
+                            "start": {
+                                "site": 175,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 178,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "GG",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 45,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#009900",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D16",
+                        "position": {
+                            "start": {
+                                "site": 190,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 197,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "Ib",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 45,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#009900",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D17",
+                        "position": {
+                            "start": {
+                                "site": 220,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 230,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "II",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 45,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#009900",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom"
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                },
+                {
+                    "type": "domain",
+                    "option": {
+                        "id": "D18",
+                        "position": {
+                            "start": {
+                                "site": 256,
+                                "display": "hide"
+                            },
+                            "end": {
+                                "site": 266,
+                                "display": "hide"
+                            },
+                            "isLocked": false
+                        },
+                        "name": "III",
+                        "nameTextStyle": {
+                            "fontFamily": "Arial",
+                            "fontSize": 14,
+                            "color": "#333333",
+                            "rotate": 45,
+                            "location": "bottom",
+                            "fontWeight": "bold",
+                            "fontStyle": "normal"
+                        },
+                        "style": {
+                            "color": "#009900",
+                            "texture": {
+                                "type": "none",
+                                "color": "#4389b4"
+                            },
+                            "gradient": "centerToTopAndBottom",
+                            "rotate": 0
+                        },
+                        "borderStyle": {
+                            "color": "#000000",
+                            "size": 1,
+                            "isDash": false
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "option": {
+                "content": "DDX6",
+                "position": {
+                    "x": 145.9918699186992,
+                    "y": 59.84552845528458
+                },
+                "id": "T12",
+                "style": {
+                    "fontSize": 25,
+                    "fontFamily": "Arial",
+                    "color": "#000000",
+                    "fontStyle": "normal",
+                    "fontWeight": "bold",
+                    "textDecoration": "none",
+                    "horizontalAlign": "middle",
+                    "verticalAlign": "center",
+                    "rotate": 0,
+                    "textDirection": "horizontal"
+                },
+                "borderStyle": {
+                    "color": null,
+                    "size": 1,
+                    "isDash": false
+                },
+                "editable": true
+            }
+        },
+        {
+            "type": "line",
+            "option": {
+                "type": "straight",
+                "position": "238,172 560,172",
+                "pointsNum": 2,
+                "id": "L1",
+                "style": {
+                    "isDash": false,
+                    "left": "arrow",
+                    "right": "arrow",
+                    "color": "#00FF33",
+                    "size": 2
+                },
+                "editable": true
+            }
+        },
+        {
+            "type": "text",
+            "option": {
+                "content": "DDX6-N",
+                "position": {
+                    "x": 350,
+                    "y": 200
+                },
+                "id": "T13",
+                "style": {
+                    "fontSize": 18,
+                    "fontFamily": "Arial",
+                    "color": "#000000",
+                    "fontStyle": "normal",
+                    "fontWeight": "bold",
+                    "textDecoration": "none",
+                    "horizontalAlign": "middle",
+                    "verticalAlign": "center",
+                    "rotate": 0,
+                    "textDirection": "horizontal"
+                },
+                "borderStyle": {
+                    "color": null,
+                    "size": 2,
+                    "isDash": false
+                },
+                "editable": true
+            }
+        },
+        {
+            "type": "line",
+            "option": {
+                "type": "straight",
+                "position": "570,172 825,172",
+                "pointsNum": 2,
+                "id": "L2",
+                "style": {
+                    "isDash": false,
+                    "left": "arrow",
+                    "right": "arrow",
+                    "color": "#009999",
+                    "size": 2
+                },
+                "editable": true
+            }
+        },
+        {
+            "type": "text",
+            "option": {
+                "content": "DDX6-C",
+                "position": {
+                    "x": 727,
+                    "y": 200
+                },
+                "id": "T13",
+                "style": {
+                    "fontSize": 18,
+                    "fontFamily": "Arial",
+                    "color": "#000000",
+                    "fontStyle": "normal",
+                    "fontWeight": "bold",
+                    "textDecoration": "none",
+                    "horizontalAlign": "middle",
+                    "verticalAlign": "center",
+                    "rotate": 0,
+                    "textDirection": "horizontal"
+                },
+                "borderStyle": {
+                    "color": null,
+                    "size": 1,
+                    "isDash": false
+                },
+                "editable": true
+            }
+        },
+        {
+            "type": "text",
+            "option": {
+                "content": "EDC3",
+                "position": {
+                    "x": 147.8888888888889,
+                    "y": 248
+                },
+                "id": "T17",
+                "style": {
+                    "fontSize": 25,
+                    "fontFamily": "Arial",
+                    "color": "#000000",
+                    "fontStyle": "normal",
+                    "fontWeight": "bold",
+                    "textDecoration": "none",
+                    "horizontalAlign": "middle",
+                    "verticalAlign": "center",
+                    "rotate": 0,
+                    "textDirection": "horizontal"
+                },
+                "borderStyle": {
+                    "color": null,
+                    "size": 1,
+                    "isDash": false
+                },
+                "editable": true
+            }
+        },
+        {
+            "type": "text",
+            "option": {
+                "content": "Fig.1A, Felix T et al. (2009) Mol Cell. 33(5):661-68.",
+                "position": {
+                    "x": 472,
+                    "y": 441
+                },
+                "id": "T18",
+                "style": {
+                    "fontSize": 25,
+                    "fontFamily": "Arial",
+                    "color": "#999999",
+                    "fontStyle": "italic",
+                    "fontWeight": "bold",
+                    "textDecoration": "none",
+                    "horizontalAlign": "middle",
+                    "verticalAlign": "center",
+                    "rotate": 0,
+                    "textDirection": "horizontal"
+                },
+                "borderStyle": {
+                    "color": null,
+                    "size": 1,
+                    "isDash": false
+                },
+                "editable": true
+            }
+        }
+    ]
+}
