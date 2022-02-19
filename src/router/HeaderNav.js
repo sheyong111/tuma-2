@@ -81,9 +81,9 @@ function HeaderNav(props) {
             </div>
           );
         })}
-        <div className={"headernav-item-wrap" + " tuma-theme-bgcolor"} onClick={() => window.open("https://renlab.org/")} key={999}>
+        {/* <div className={"headernav-item-wrap" + " tuma-theme-bgcolor"} onClick={() => window.open("https://renlab.org/")} key={999}>
           <span>{"Renlab"}</span>
-        </div>
+        </div> */}
       </div>
     </React.Fragment>
   );

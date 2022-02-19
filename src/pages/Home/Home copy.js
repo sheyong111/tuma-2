@@ -6,7 +6,6 @@ import pic2 from "../../imgs/home/2.PNG";
 import pic3 from "../../imgs/home/3.PNG";
 
 import "./home.scss";
-import FormItem from "antd/lib/form/FormItem";
 
 const { Text, Link, Title, Paragraph } = Typography;
 
@@ -19,19 +18,16 @@ function Home(props) {
   const defaultValueMap = {
     // geneName: "NEAT1",
     cancers: "RCC",
-    // tumaId: "tuma_1",
-    // treatmentSubtype: "PD1 Combo",
+    tumaId: "tuma_1",
+    treatmentSubtype: "PD1 Combo",
   };
 
   const selectList = [
     // { label: "Gene symbol", value: "geneName" },
     { label: "Cancers", value: "cancers" },
-    { label: "Taxonomy Level" },
-    // { label: "TUMA ID", value: "tumaId" },
-    // { label: "Treatment subtype", value: "treatmentSubtype" },
+    { label: "TUMA ID", value: "tumaId" },
+    { label: "Treatment subtype", value: "treatmentSubtype" },
   ];
-
-  const taxonMenuList = ["Kindom", "Phylum", "Class", "Order", "Family", "Genus", "species"];
 
   // 首页点击Search按钮的回调
   function onFinish(formData) {
@@ -83,15 +79,6 @@ function Home(props) {
               initialValues={{
                 type: selectList[0].value,
               }}>
-              <FormItem noStyle name="type">
-                <Select className="select-wrap homepage-comps main-select">
-                  {taxonMenuList.map((item, index) => (
-                    <Option key={index} value={item}>
-                      {item}
-                    </Option>
-                  ))}
-                </Select>
-              </FormItem>
               <Form.Item noStyle name="type">
                 <Select className="select-wrap homepage-comps main-select">
                   {selectList.map((item, index) => (

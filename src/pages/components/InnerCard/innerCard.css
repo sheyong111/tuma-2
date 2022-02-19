@@ -1,0 +1,23 @@
+.innercard-title-wrap {
+  /* color: #fff; */
+  padding: 10px 0px 10px 20px;
+  border-left-width: 10px;
+  border-left-style: solid;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.innercard-title-wrap .innercard-title-text {
+  margin-left: 5px;
+}
+
+.innercard-wrap-shadow {
+  -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.innercard-wrap-border {
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=innerCard.css.map */

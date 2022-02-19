@@ -21,7 +21,8 @@ export default function SearchForm(props) {
     treatmentType: "Treatment subtype",
   };
 
-  const formPropsList = ["cancers", "id", "treatmentType"];
+  // const formPropsList = ["cancers", "id", "treatmentType"];
+  const formPropsList = ["cancers"];
 
   const CancersList = ["Melanoma", "RCC", "NSCLC", "GI"];
   const TreatmentTypeList = ["PD1 monotherapy", "PD1 Combo"];
@@ -38,23 +39,23 @@ export default function SearchForm(props) {
         </Select>
       </Form.Item>
     ),
-    treatmentType: (
-      <Form.Item name="treatmentType" noStyle>
-        <Select mode="multiple" allowClear placeholder="All" style={{ width: "30vw" }} tagRender={SelectTag}>
-          {TreatmentTypeList.map((item, index) => (
-            <Option key={index} value={item}>
-              {item}
-            </Option>
-          ))}
-        </Select>
-      </Form.Item>
-    ),
+    // treatmentType: (
+    //   <Form.Item name="treatmentType" noStyle>
+    //     <Select mode="multiple" allowClear placeholder="All" style={{ width: "30vw" }} tagRender={SelectTag}>
+    //       {TreatmentTypeList.map((item, index) => (
+    //         <Option key={index} value={item}>
+    //           {item}
+    //         </Option>
+    //       ))}
+    //     </Select>
+    //   </Form.Item>
+    // ),
 
-    id: (
-      <Form.Item name="cancers" noStyle>
-        <Input placeholder={'Please input2, split by ","'} style={{ minWidth: "30vw" }} />
-      </Form.Item>
-    ),
+    // id: (
+    //   <Form.Item name="cancers" noStyle>
+    //     <Input placeholder={'Please input2, split by ","'} style={{ minWidth: "30vw" }} />
+    //   </Form.Item>
+    // ),
   };
 
   // 一个builder组件，统一收归了一些功能和样式
