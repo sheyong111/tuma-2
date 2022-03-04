@@ -15,7 +15,27 @@ function BrowserResultTable(props) {
 
   const { params = {} } = props;
 
-  const [tableDatas, updateData] = useState([]);
+  const [tableDatas, updateData] = useState([
+    {
+      // 加着测试用的
+      id: "tuma_1",
+      study: "Gopalakrishnan_2018",
+      project: "PRJEB22893",
+      assay: "WGS",
+      samples: "ERR2162200",
+      cancers: "Melanoma",
+      treatment: "AnTi-PD1",
+      sex: "Male",
+      age: "88",
+      response: "NR",
+      treatmentSubtype: "PD1 monotherapy",
+      geographicLocation: "USA",
+      instrument: "Illumina HiSeq 2000",
+      antibiotics: "NA",
+      timepoint: "T0",
+      patientId: "109865",
+    },
+  ]);
   const [pagination, updatePagination] = useState({
     current: 1,
     pageSize: 10,

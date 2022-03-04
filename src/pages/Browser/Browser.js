@@ -6,8 +6,11 @@ import BrowserTaxonomyTree from "./comps/BrowserTaxonomyTree/BrowserTaxonomyTree
 function Browser() {
   return (
     <div>
-      <InnerCard title="Taxonomy Tree"></InnerCard>
+      <InnerCard title="Taxonomy Tree">
+        <BrowserTaxonomyTree />
+      </InnerCard>
       <BrowserResultTable />
+      1111111111111
     </div>
   );
 }

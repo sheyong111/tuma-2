@@ -1,12 +1,6 @@
 import TitleWithTip from "./TitleWithTip";
 import { Tooltip, Button, Input, Space } from "antd";
-import {
-  PlusCircleOutlined,
-  SearchOutlined,
-  ClearOutlined,
-  CheckOutlined,
-  CheckCircleOutlined,
-} from "@ant-design/icons";
+import { PlusCircleOutlined, SearchOutlined, ClearOutlined, CheckOutlined, CheckCircleOutlined } from "@ant-design/icons";
 import titleTips from "../../module/titleTips";
 import React from "react";
 
@@ -24,8 +18,8 @@ function getTUMATableColumns(allowSearchGene) {
     // { title: <TitleWithTip title="RPS ID" tooltip={<RPSIdTip />} />, dataIndex: "rpsId", key: "rpsId", render: (text, item, index) => <a target="_blank" href={`./#/rpsDetail/${item.rpsId}`} >{text}</a> },
     {
       title: "Tuma ID",
-      dataIndex: "id",
-      key: "id",
+      dataIndex: "tumaId",
+      key: "tumaId",
       render: (text) => <span>{text}</span>,
     },
 
@@ -48,15 +42,15 @@ function getTUMATableColumns(allowSearchGene) {
       render: (text) => <span>{text}</span>,
     },
     {
-      title: "Samples",
-      dataIndex: "samples",
-      key: "samples",
+      title: "Sample",
+      dataIndex: "sample",
+      key: "sample",
       render: (text) => <span>{text}</span>,
     },
     {
-      title: "Cancers",
-      dataIndex: "cancers",
-      key: "cancers",
+      title: "Cancer",
+      dataIndex: "cancer",
+      key: "cancer",
       render: (text) => <span>{text}</span>,
     },
     {
@@ -102,9 +96,9 @@ function getTUMATableColumns(allowSearchGene) {
       render: (text) => <span>{text}</span>,
     },
     {
-      title: "Antibiotics",
-      dataIndex: "antibiotics",
-      key: "antibiotics",
+      title: "Antibiotic",
+      dataIndex: "antibiotic",
+      key: "antibiotic",
       render: (text) => <span>{text}</span>,
     },
     {

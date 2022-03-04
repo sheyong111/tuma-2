@@ -7,31 +7,31 @@ import SelectTag from "../../components/SelectTag";
 import "./searchForm.scss";
 import React, { useState } from "react";
 import utils from "../../../module/utils";
+import FormItem from "antd/lib/form/FormItem";
 
 export default function SearchForm(props) {
   const { form, initBuilders, isLoading } = props;
   const { Option } = Select;
 
-  const [currentBuilderList, updateCurrentBuilder] = useState(initBuilders || ["cancers"]);
+  const [currentBuilderList, updateCurrentBuilder] = useState(initBuilders || ["cancer"]);
 
   const labelNameMap = {
-    id: "TUMA ID",
+    tumaId: "TUMA ID",
 
-    cancers: "Cancers",
+    cancer: "Cancer",
     treatmentType: "Treatment subtype",
   };
 
-  // const formPropsList = ["cancers", "id", "treatmentType"];
-  const formPropsList = ["cancers"];
+  const formPropsList = ["cancer", "tumaId"];
 
-  const CancersList = ["Melanoma", "RCC", "NSCLC", "GI"];
+  const CancerList = ["Melanoma", "RCC", "NSCLC", "GI"];
   const TreatmentTypeList = ["PD1 monotherapy", "PD1 Combo"];
 
   const formItemMap2 = {
-    cancers: (
-      <Form.Item name="cancers" noStyle>
+    cancer: (
+      <Form.Item name="cancer" noStyle>
         <Select mode="multiple" allowClear placeholder="All" style={{ width: "30vw" }} tagRender={SelectTag}>
-          {CancersList.map((item, index) => (
+          {CancerList.map((item, index) => (
             <Option key={index} value={item}>
               {item}
             </Option>
@@ -39,23 +39,11 @@ export default function SearchForm(props) {
         </Select>
       </Form.Item>
     ),
-    // treatmentType: (
-    //   <Form.Item name="treatmentType" noStyle>
-    //     <Select mode="multiple" allowClear placeholder="All" style={{ width: "30vw" }} tagRender={SelectTag}>
-    //       {TreatmentTypeList.map((item, index) => (
-    //         <Option key={index} value={item}>
-    //           {item}
-    //         </Option>
-    //       ))}
-    //     </Select>
-    //   </Form.Item>
-    // ),
-
-    // id: (
-    //   <Form.Item name="cancers" noStyle>
-    //     <Input placeholder={'Please input2, split by ","'} style={{ minWidth: "30vw" }} />
-    //   </Form.Item>
-    // ),
+    tumaId: (
+      <FormItem name="tumaId" noStyle>
+        <Input placeholder={'Please input TUMA ID(s) like TUMA_1, split by ","'} style={{ width: "30vw" }} />
+      </FormItem>
+    ),
   };
 
   // 一个builder组件，统一收归了一些功能和样式
@@ -113,7 +101,7 @@ export default function SearchForm(props) {
 
   // 重置所有builder的方法
   function resetAllBuilders() {
-    let initBuilderList = ["cancers"]; // 注意重置表单的时候重置成这个，而非一次性的传入值initBuilders
+    let initBuilderList = ["cancer"]; // 注意重置表单的时候重置成这个，而非一次性的传入值initBuilders
     form.resetFields();
     updateCurrentBuilder(initBuilderList);
   }

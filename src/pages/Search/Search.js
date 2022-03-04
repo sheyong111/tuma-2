@@ -12,15 +12,15 @@ import renderTableTotal from "../components/renderTableTotal";
 import "./search.scss";
 
 export default function Search(props) {
-  const [LLPSList, updateLLPSList] = useState([
+  const [TUMAList, updateTUMAList] = useState([
     {
       // 加着测试用的
-      id: "tuma_1",
+      tumaId: "tuma_1",
       study: "Gopalakrishnan_2018",
       project: "PRJEB22893",
       assay: "WGS",
-      samples: "ERR2162200",
-      cancers: "Melanoma",
+      sample: "ERR2162200",
+      cancer: "Melanoma",
       treatment: "AnTi-PD1",
       sex: "Male",
       age: "88",
@@ -28,7 +28,7 @@ export default function Search(props) {
       treatmentSubtype: "PD1 monotherapy",
       geographicLocation: "USA",
       instrument: "Illumina HiSeq 2000",
-      antibiotics: "NA",
+      antibiotic: "NA",
       timepoint: "T0",
       patientId: "109865",
     },
@@ -43,23 +43,10 @@ export default function Search(props) {
   const { type, keyWords } = useParams();
   const [form] = Form.useForm();
 
-  function getFormInitValue() {
-    let initValues = {};
-    if (type === "condensate" || type === "organism") {
-      initValues[type] = [keyWords];
-    } else if (type === "llpsId" || type === "rpsId") {
-      initValues[type] = keyWords;
-    } else {
-      initValues.keyWordType = type;
-      initValues.keyWord = keyWords;
-    }
-    return initValues;
-  }
-
   /**
    * 搜索TUMA信息
    */
-  function getLLPSList(partParams, pagination) {
+  function getTUMAList(partParams, pagination) {
     // 在这个节点判断一下用户到底有没有输入东西，没有就不给看，虽然好像很没有意义
     console.log(partParams);
     let hasData = false;
@@ -76,8 +63,9 @@ export default function Search(props) {
 
     let url = `/search`;
     let params = {
+      tumaId: partParams.tumaId || undefined,
+      cancer: partParams.cancer || undefined,
       // 从传入的参数中读取给接口的传参，这里还是一个一个进行读取，方便在这里进行各种奇葩数据修改需求，如果新加字段记得一定在这里处理下
-      organism: partParams.organism || undefined,
     };
 
     if (pagination.total) {
@@ -95,7 +83,7 @@ export default function Search(props) {
         if (res.code == "200") {
           let newDataList = utils.addKeyForArray(res.data.result);
 
-          updateLLPSList(newDataList);
+          updateTUMAList(newDataList);
           updatePagination({
             ...pagination,
             total: pagination.total || res.data.total,
@@ -121,13 +109,13 @@ export default function Search(props) {
       pageSize: pagination.pageSize,
       total: 0,
     };
-    getLLPSList(formData, newPagination);
+    getTUMAList(formData, newPagination);
   }
 
   // 分页改变时的回调
   function onChangePage(pagination, filters, sorter) {
     console.log(pagination);
-    getLLPSList(form.getFieldsValue(), pagination);
+    getTUMAList(form.getFieldsValue(), pagination);
   }
 
   return (
@@ -135,16 +123,11 @@ export default function Search(props) {
       <div className="rps-theme-title-main" style={{ paddingBottom: "50px" }}>
         {/* Search */}
       </div>
-      <ContentCard
-        // title="Search builder"
-        title="Search"
-        wrapStyle={{ marginBottom: "25px" }}
-        icon={<SearchOutlined />}>
+      <ContentCard title="Search" wrapStyle={{ marginBottom: "25px" }} icon={<SearchOutlined />}>
         <Form
           form={form}
           name="searchForm"
           onFinish={onFinish}
-          /* initialValues={getFormInitValue()} */
           labelCol={{
             lg: { span: 5 },
             xl: { span: 4 },
@@ -155,7 +138,7 @@ export default function Search(props) {
             xl: { span: 20 },
             xxl: { span: 18 },
           }}>
-          <SearchForm form={form} initBuilders={[type || "cancers"]} isLoading={isLoading} />
+          <SearchForm form={form} initBuilders={[type || "cancer"]} isLoading={isLoading} />
           {/* <div className="llps-search-btn-wrap" >
                         <Form.Item noStyle >
                             <Button type="primary" htmlType="submit" loading={isLoading} icon={<SearchOutlined />} size="large" >Search</Button>
@@ -163,30 +146,31 @@ export default function Search(props) {
                     </div> */}
         </Form>
       </ContentCard>
-
-      <ContentCard title="Search result" icon={<BulbOutlined />}>
-        <div className="llps-result-table-wrap">
-          <Spin spinning={isLoading}>
-            <Table
-              columns={getTUMATableColumns(false)}
-              dataSource={LLPSList}
-              pagination={{
-                position: ["topRight", "bottomRight"],
-                showTotal: renderTableTotal,
-                ...pagination,
-              }}
-              onChange={onChangePage}
-              scroll={{ x: true }}
-              rowClassName="rps-table-row"
-              onHeaderRow={() => {
-                return {
-                  className: "rps-table-row",
-                };
-              }}
-            />
-          </Spin>
-        </div>
-      </ContentCard>
+      {firstSearchDone && (
+        <ContentCard title="Search result" icon={<BulbOutlined />}>
+          <div className="llps-result-table-wrap">
+            <Spin spinning={isLoading}>
+              <Table
+                columns={getTUMATableColumns(false)}
+                dataSource={TUMAList}
+                pagination={{
+                  position: ["topRight", "bottomRight"],
+                  showTotal: renderTableTotal,
+                  ...pagination,
+                }}
+                onChange={onChangePage}
+                scroll={{ x: true }}
+                rowClassName="rps-table-row"
+                onHeaderRow={() => {
+                  return {
+                    className: "rps-table-row",
+                  };
+                }}
+              />
+            </Spin>
+          </div>
+        </ContentCard>
+      )}
     </div>
   );
 }
